@@ -7,49 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0197271DC6D0B9E425BEE13AFDC78273 /* AudioRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097C0711156D7D6B78B566C51918F591 /* ic_record_too_short@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */; };
+		0D14951B6CA72A5F4CDE7BC5F3C36072 /* ic_record@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */; };
+		122771D2218771EF2F1F77B5AC3069D9 /* BBHoldToSpeakButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155D7C2CB4E3727D4AE1550E127FD567 /* libAvdioManager.a in Sources */ = {isa = PBXBuildFile; fileRef = 8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */; };
+		168DAD7508626C31307AD2753C6A6612 /* XVIEWAvdioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		188800886CEEE7CCE5C904CAE9F1B0BE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AD6AE620276698484131620E79BA83 /* CoreFoundation.framework */; };
+		18B99F040E01BD14F119E52D1EA87EF5 /* ic_record_ripple@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */; };
 		1BA20E7DE75BC18110CCF6DE2890B2F0 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72679A1AB41E9705C2C9CAB7699F668F /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE27ED202B48D4B87821A5B1C3AD66B /* AudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */; };
 		1C60F8606C1A43719865A01F50403F65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C729D2E8507C10CAA7C459F13BD81F1 /* CFNetwork.framework */; };
 		1D367881B6D08C92975ECE68AA1306E3 /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515036CD0741C6E518AD6E11DD5A5CE0 /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2092436ECA08E57084A46572F50D74FA /* LameTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC5D0C21C2F35BA95B0A42593E32F0 /* LameTool.framework */; };
 		20EE564AEE2CA1D4D6AE04CF4A93FC7E /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */; };
-		20F61F58968C6CD31F5B562598E1EEF8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E8D8711D587FBCD0C6B61E8ABF4B80 /* ReplaceMe.m */; };
 		260C200F6FA3FC5EF749269C0950587F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
 		26703F4B9985D52F33DC1D85C877E054 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4279684CE29B488B6EB40DE8F440248 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BBFE164BE76ED023905E19367664E19 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18B77260A7B0D10E4E92BFC764C0AE /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2BFC6DE4E25B95004045AAFFECBE8907 /* ic_record@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */; };
 		303B22BBACC9BE89B77D7EF5EFD23F3A /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FEED6BBDD92724D2A3D7D5342AB91228 /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3100D41AA80CA373E265C0985EAE1DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
 		3537DD76FE48A5BFD00B636D43EA8802 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D83ED94C0FBB8BC4E25AFAC5A7185B1F /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		43AA85CD94185C11E6A69C23B651C124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
 		4A014D2DAFBBD2B56CF7D1C4414A2092 /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D23776470A2D434D716F8E0E31A35493 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A15FD1A24A2D182BA3E8DD26B83D962 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A18228D6D5381F954EF8F04210A9F59 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D201F2E1724ACE561590A7F449B7900 /* XVIEWAvdioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F00ED1ADE675E2DB8B5B02F4E3394E0 /* XVIEWAvdioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D102FDF82ABC33C628F57AA3C8DDB87 /* BBVoiceRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5AD5B165929655DCB8ECFE190F4AAE /* BBHoldToSpeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */; };
+		50C2D82F7D4CACE510109B826E704D07 /* ic_record_ripple@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */; };
 		51B1D9EDE8DACB105159318AE50978AE /* LameTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FED16053AC743FE685E63330E570671 /* LameTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5671A37733FA70E59C214D4B2D5E8E58 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ADB24F2219CCDDE4FCBFF6D995DE66 /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59BAF69EE322D5483E935B680E251534 /* UIColor+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */; };
+		5D3C11407150B18CE5A0B208A105EB37 /* BBVoiceRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB656F3FED005AA38416DBB0A96978B /* BBVoiceRecordToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69341D0A8EA6A7228457757E3C23DC65 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E29C698E66065B6CD3D5F3060FB52E4B /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B6E1CD4D8016B4D4AAD52D9790F1361 /* ic_release_to_cancel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */; };
+		6DD5A0E698E1A59F8609B854CEE8BC46 /* AudioProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */; };
 		74EABE205910643F45F774667A2E7E58 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6CA0523577956E4BBE3C609335404E /* AudioToolbox.framework */; };
 		764E26CA1C214713A9AB0C188C36794B /* LameTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F9D488BDA0A6A6968B1132A7175FA6 /* LameTool-dummy.m */; };
+		79C2B296B9DFA62AE8F1B37564373DA5 /* BBVoiceRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */; };
 		7D477027A5B99078A65A5569AE0C5C97 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5614CED7A49066732309468EFD51D605 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F1EC4A7BCA5FA91AF2D12F039C555EC /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536A59E7A8FFCFB88C5875B3509BA62 /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8067AC38EC7D376229BC17226F766E49 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF1C9E6027B7081EE9E86439A904CAA /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		832619C5DFA09DB17D0A1A46A0874F3A /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBE71745BA24900360AA5DE4A87016 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8527D80B6EE2F1B96A074B588B14F139 /* XVIEWAvdioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FD12C7CC57F474CAB24BDD2CAAECB0 /* XVIEWAvdioManager-dummy.m */; };
+		8412010539B2AC1AE6DE6105E9C28B25 /* BBVoiceRecordPowerAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		862759B9A5B730190500AD79478E7556 /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD3B7E14728487AEC031AF14AC13897 /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C32BF53E985C63BDD97C0B7FAA3D4EE /* UIImage+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D570D892DEF2F00F610FFB9B43B6F09 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8949F8CB8A09D1C3A461BB62CC0147 /* BBVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */; };
 		90E4BFFB072D3DD145D5C75FD50F5623 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B10CE00D12424624CF9CA1E7EA503D /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		921951CB5A68D4162F0B77007FBDDDF6 /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9894A1B33D85E9446ECB57A88F5D2538 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EE9FCFACE1F72CB8A68C6AF4A3BECBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
+		AA6561DB518006F48285E2B2544B089C /* XVIEWAvdioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */; };
 		AE49A2E6AA59AA9C5920050D15416B41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D422AFBF6890B2859E9F8247C37BD007 /* SystemConfiguration.framework */; };
+		AF0596FC7C7ECB3BC910CC66FA66BD9D /* ic_record_too_short@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */; };
 		B94CA64F695FEDBFB004BA79C105D16B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
 		BE27C6CD0AC44CA95B445DD22321B5E4 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA53957F44079B7CCFF51043E4AC988D /* LameTool.m */; };
+		C5DC805480A106E2886FDEFD3532BB99 /* ic_release_to_cancel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */; };
+		C634D34B5E390D3AA35FDFED6616D9F9 /* BBVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */; };
 		C902C583AEC721DBA927199F0A1C6B9C /* LameTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A22D819C78F1ECE494BDBFA3655FCF /* LameTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C91DFDA64C9A6A06CBEA031CE2D1F7C4 /* Pods-XVIEWAvdioManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */; };
+		C9BB5ED9101B08A5F71B9B2C85A85290 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */; };
+		CBA597C0605409A6D8D42D58A4726A40 /* AudioProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF1E3DB07F18C8A9FFE02A6114A9A15F /* StreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9F7621C17DDABF70B4DEEC303AD9FE /* StreamingKit.framework */; };
 		D0A8C4203761505DB8DCA80ED6FBE770 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C89480E46BEA975D29B7F75F5BA1 /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		DF1C070F68739675AAD5C71CFCCC0448 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD743E5B13EB0895A9DEBCC3A36F74E /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E1D23C972A7B7F288455F66FC51F9A35 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B12079A694F251C8F52213BDEA47E408 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39BB2489ABEE210AB81F16012BED3DB /* AudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */; };
+		EAB9D9C5C6E53D761B2B5434CBFD4886 /* BBVoiceRecordHeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5603D356E7E72A352BA291F5D17A8FB /* UIColor+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7303DBC70BF4E80413A352FB39ABD82 /* BBVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */; };
+		F73E7D9EE4D9BFAE75359D2641463160 /* AudioPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F74D3D8028BF725F1154076705361481 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F8D907D78DF7AC2BC0E766635F5FA /* StreamingKit-dummy.m */; };
 		FE4112F1D0783391F7DB03FD41EA4ECA /* Pods-XVIEWAvdioManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF12679D63F0CB33A954EEF5E8C9A603 /* UIImage+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,75 +135,105 @@
 		0AE1C89480E46BEA975D29B7F75F5BA1 /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
 		0D2CECE854A70131A96EFF1E3AAF9885 /* Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0EA72D2ECE5FF796E7AB93B4522D9622 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = LameTool/LameTool/libmp3lame.a; sourceTree = "<group>"; };
-		0F00ED1ADE675E2DB8B5B02F4E3394E0 /* XVIEWAvdioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-umbrella.h"; sourceTree = "<group>"; };
+		106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordToastContentView.m; sourceTree = "<group>"; };
+		13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BBVoiceRecord.m"; sourceTree = "<group>"; };
+		140D66B482CE5F228393C34385AFF31F /* XVIEWAvdioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWAvdioManager.modulemap; sourceTree = "<group>"; };
 		193CBA829DCCB766E4671BF9B45A6AC3 /* Pods_XVIEWAvdioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Tests.framework; path = "Pods-XVIEWAvdioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@2x.png"; sourceTree = "<group>"; };
 		1AAC5D0C21C2F35BA95B0A42593E32F0 /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		200AC70F7F571F975FC7C317CF6678DC /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StreamingKit.modulemap; sourceTree = "<group>"; };
 		20DF77E3094FE7834E734888A0941F14 /* Pods-XVIEWAvdioManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Example-dummy.m"; sourceTree = "<group>"; };
 		2823C00A7EDE51C2A70786BFE0F3DC57 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StreamingKit.framework; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F090E7A28FA717A33D26423CA4A3BAF /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAvdioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3BD3AF06CD589E9F6842E72FC183F073 /* XVIEWAvdioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWAvdioManager.xcconfig; sourceTree = "<group>"; };
+		2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@2x.png"; sourceTree = "<group>"; };
+		2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioRecordView.h; sourceTree = "<group>"; };
+		2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@3x.png"; sourceTree = "<group>"; };
 		40CB82D327C8158E1E323968D7D022CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWAvdioManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4A18228D6D5381F954EF8F04210A9F59 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = LameTool/LameTool/lame.h; sourceTree = "<group>"; };
+		4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWAvdioManager.xcconfig; sourceTree = "<group>"; };
 		4BFAE5CF6D0CBA268F6025BAF5702360 /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LameTool.framework; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-umbrella.h"; sourceTree = "<group>"; };
 		515036CD0741C6E518AD6E11DD5A5CE0 /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
 		52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5614CED7A49066732309468EFD51D605 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
 		57639455CA42AE69ACC8FD0646D7BF27 /* Pods-XVIEWAvdioManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-resources.sh"; sourceTree = "<group>"; };
+		57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordHeaderDefine.h; sourceTree = "<group>"; };
+		57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@3x.png"; sourceTree = "<group>"; };
+		58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordPowerAnimationView.m; sourceTree = "<group>"; };
 		6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioProcessManager.m; sourceTree = "<group>"; };
 		69C3663BF310F9C82A3EA4C72F08B300 /* Pods-XVIEWAvdioManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		69E53BF39C21359E789124564655DB28 /* Pods-XVIEWAvdioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6DEF5A2A32E89614EC60E4DCF96391E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A1E9B7F97A029BEBD60980854070D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6F2443CA9F2A6EFF60F6CB589DA1AA6F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		705AE0D98AE425F8A334430AB7EC24B5 /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72679A1AB41E9705C2C9CAB7699F668F /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordController.m; sourceTree = "<group>"; };
 		7536A59E7A8FFCFB88C5875B3509BA62 /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
 		782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		78EE47D93A9504A67CA539B054BBD6FC /* Pods-XVIEWAvdioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B18B77260A7B0D10E4E92BFC764C0AE /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
-		88F30222D1C55D4C9C702FFB3ED87EC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBHoldToSpeakButton.h; sourceTree = "<group>"; };
+		88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBHoldToSpeakButton.m; sourceTree = "<group>"; };
+		89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@3x.png"; sourceTree = "<group>"; };
 		8D2A6F8BD4198C8373CC5BD801560995 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAvdioManager.a; sourceTree = "<group>"; };
 		8DCBE71745BA24900360AA5DE4A87016 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
 		8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		90E8D8711D587FBCD0C6B61E8ABF4B80 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWAvdioManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		937A2031C1AF1CE2A8167B5ED537EFCF /* XVIEWAvdioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-prefix.pch"; sourceTree = "<group>"; };
+		91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93AD6AE620276698484131620E79BA83 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		97A22D819C78F1ECE494BDBFA3655FCF /* LameTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LameTool-umbrella.h"; sourceTree = "<group>"; };
 		9894A1B33D85E9446ECB57A88F5D2538 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
 		9A7F8D907D78DF7AC2BC0E766635F5FA /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
 		9C729D2E8507C10CAA7C459F13BD81F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		9FA538B3211745DE85B30FC8603D1EED /* XVIEWAvdioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWAvdioManager.modulemap; sourceTree = "<group>"; };
 		9FED16053AC743FE685E63330E570671 /* LameTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LameTool.h; path = LameTool/LameTool/LameTool.h; sourceTree = "<group>"; };
+		A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerManager.m; sourceTree = "<group>"; };
+		A4D5DE11EAFB3C59A9B8012595070C22 /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAvdioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BBVoiceRecord.h"; sourceTree = "<group>"; };
+		A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@2x.png"; sourceTree = "<group>"; };
 		A7B92FBAD6E2CA9E6049CFC4ED70147A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BBVoiceRecord.h"; sourceTree = "<group>"; };
 		ABBAB87B8FB79413B63646F1B1464C42 /* LameTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LameTool.xcconfig; sourceTree = "<group>"; };
 		ABF1C9E6027B7081EE9E86439A904CAA /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BBVoiceRecord.m"; sourceTree = "<group>"; };
 		B12079A694F251C8F52213BDEA47E408 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioPlayerManager.h; sourceTree = "<group>"; };
 		B4F9D488BDA0A6A6968B1132A7175FA6 /* LameTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LameTool-dummy.m"; sourceTree = "<group>"; };
+		B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioRecordView.m; sourceTree = "<group>"; };
+		B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordView.h; sourceTree = "<group>"; };
 		BA56C9DE1127CE37DEF0FBE1D9B5CDFA /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
 		BB20A6DCDBD31EB873667DB23DC98DD3 /* LameTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LameTool.modulemap; sourceTree = "<group>"; };
 		BB4208330845FD9CBCF93CD54C8FAD5A /* Pods-XVIEWAvdioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Example.modulemap"; sourceTree = "<group>"; };
 		BBD743E5B13EB0895A9DEBCC3A36F74E /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		C72925B8C404A0E5B16B59099A92407A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C8ADB24F2219CCDDE4FCBFF6D995DE66 /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
+		C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordToastContentView.h; sourceTree = "<group>"; };
 		CAD3B7E14728487AEC031AF14AC13897 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@2x.png"; sourceTree = "<group>"; };
+		CD76D58B9EA7B3E2CB559C5DAC5E4FF5 /* XVIEWAvdioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-prefix.pch"; sourceTree = "<group>"; };
 		D23776470A2D434D716F8E0E31A35493 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
 		D3ADCB3EB1E41B332A09CD578E8A9DD4 /* Pods_XVIEWAvdioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Example.framework; path = "Pods-XVIEWAvdioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D422AFBF6890B2859E9F8247C37BD007 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D4279684CE29B488B6EB40DE8F440248 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
-		D4FD12C7CC57F474CAB24BDD2CAAECB0 /* XVIEWAvdioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWAvdioManager-dummy.m"; sourceTree = "<group>"; };
 		D527036D85578804086323898291BC58 /* Pods-XVIEWAvdioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D83ED94C0FBB8BC4E25AFAC5A7185B1F /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
 		DA9F7621C17DDABF70B4DEEC303AD9FE /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29C698E66065B6CD3D5F3060FB52E4B /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		E3D9977411002DA3B84FA7D66591E705 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@3x.png"; sourceTree = "<group>"; };
 		EA53957F44079B7CCFF51043E4AC988D /* LameTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LameTool.m; path = LameTool/LameTool/LameTool.m; sourceTree = "<group>"; };
 		EAFF76EEC947D7D117241F3E022B7733 /* Pods-XVIEWAvdioManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EB2484BBC63E8FE63816D67F72C5CED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB29EE926C6CCE2D8A87D6987D1D011A /* Pods-XVIEWAvdioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Tests.modulemap"; sourceTree = "<group>"; };
 		ED7EED4090D3C29099B071F53A6BAA6D /* Pods-XVIEWAvdioManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		ED88E52AA9A028565668614313F2C53E /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
+		F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordPowerAnimationView.h; sourceTree = "<group>"; };
+		F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordView.m; sourceTree = "<group>"; };
+		FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWAvdioManager-dummy.m"; sourceTree = "<group>"; };
+		FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioProcessManager.h; sourceTree = "<group>"; };
 		FEED6BBDD92724D2A3D7D5342AB91228 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -262,14 +322,28 @@
 			path = StreamingKit;
 			sourceTree = "<group>";
 		};
-		26C07B6E49FDF7D337D2C5FC246250D3 /* Pod */ = {
+		24B4AFC997F14427966CDFB146E68E1B /* BBVoiceRecord */ = {
 			isa = PBXGroup;
 			children = (
-				6F2443CA9F2A6EFF60F6CB589DA1AA6F /* LICENSE */,
-				88F30222D1C55D4C9C702FFB3ED87EC6 /* README.md */,
-				2F090E7A28FA717A33D26423CA4A3BAF /* XVIEWAvdioManager.podspec */,
+				7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */,
+				88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */,
+				91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */,
+				7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */,
+				57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */,
+				F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */,
+				58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */,
+				C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */,
+				106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */,
+				B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */,
+				F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */,
+				A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */,
+				13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */,
+				A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */,
+				AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */,
+				F1E80BC34E1F60C7A1F5E22B22D72931 /* resources */,
 			);
-			name = Pod;
+			name = BBVoiceRecord;
+			path = BBVoiceRecord;
 			sourceTree = "<group>";
 		};
 		27650D825C16991FC4425CB3257FFE4E /* LameTool */ = {
@@ -316,27 +390,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5BD7CF430169EFF19E55963CD2BCBBC2 /* XVIEWAvdioManager */ = {
+		73B80B5760A936FE28509CB9F15DB802 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				90E8D8711D587FBCD0C6B61E8ABF4B80 /* ReplaceMe.m */,
-				26C07B6E49FDF7D337D2C5FC246250D3 /* Pod */,
-				9DFB076B1A904B5BFFE9846C2EDFAE28 /* Support Files */,
+				6A1E9B7F97A029BEBD60980854070D40 /* Info.plist */,
+				140D66B482CE5F228393C34385AFF31F /* XVIEWAvdioManager.modulemap */,
+				4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */,
+				FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */,
+				CD76D58B9EA7B3E2CB559C5DAC5E4FF5 /* XVIEWAvdioManager-prefix.pch */,
+				4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */,
 			);
-			name = XVIEWAvdioManager;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XVIEWAvdioManager";
+			sourceTree = "<group>";
+		};
+		7AAFB34B654A53E700F76524FAC91DDE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E3D9977411002DA3B84FA7D66591E705 /* LICENSE */,
+				C72925B8C404A0E5B16B59099A92407A /* README.md */,
+				A4D5DE11EAFB3C59A9B8012595070C22 /* XVIEWAvdioManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F2761EB3306A68954B567F06BEBACAD1 /* Development Pods */,
+				BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */,
 				48BAD6A733B9DC6F8F46B85E7FB7702C /* Frameworks */,
 				9100755EF42E875B4390457DA9110F53 /* Pods */,
 				CDE374C8F4545A0FCA1939AC900BAB3E /* Products */,
 				351FE88C06D05244492B9297F9E477EE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A4FEC0951C9F2ACC3C33EF0A1BAFABF /* AudioProcess */ = {
+			isa = PBXGroup;
+			children = (
+				B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */,
+				A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */,
+				FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */,
+				68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */,
+				2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */,
+				B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */,
+				24B4AFC997F14427966CDFB146E68E1B /* BBVoiceRecord */,
+			);
+			name = AudioProcess;
+			path = AudioProcess;
 			sourceTree = "<group>";
 		};
 		9100755EF42E875B4390457DA9110F53 /* Pods */ = {
@@ -348,18 +450,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9DFB076B1A904B5BFFE9846C2EDFAE28 /* Support Files */ = {
+		BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6DEF5A2A32E89614EC60E4DCF96391E7 /* Info.plist */,
-				9FA538B3211745DE85B30FC8603D1EED /* XVIEWAvdioManager.modulemap */,
-				3BD3AF06CD589E9F6842E72FC183F073 /* XVIEWAvdioManager.xcconfig */,
-				D4FD12C7CC57F474CAB24BDD2CAAECB0 /* XVIEWAvdioManager-dummy.m */,
-				937A2031C1AF1CE2A8167B5ED537EFCF /* XVIEWAvdioManager-prefix.pch */,
-				0F00ED1ADE675E2DB8B5B02F4E3394E0 /* XVIEWAvdioManager-umbrella.h */,
+				FE80229A6EACC84860DE265D3EE50562 /* XVIEWAvdioManager */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XVIEWAvdioManager";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BF85175530BFABB3DE16EC58A29CE497 /* Pods-XVIEWAvdioManager_Example */ = {
@@ -392,6 +488,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/StreamingKit";
+			sourceTree = "<group>";
+		};
+		C2D721A611C8EEDC55022DA67AAE21B2 /* XVIEWAvdioManager */ = {
+			isa = PBXGroup;
+			children = (
+				8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */,
+				8A4FEC0951C9F2ACC3C33EF0A1BAFABF /* AudioProcess */,
+			);
+			name = XVIEWAvdioManager;
+			path = XVIEWAvdioManager/Classes/XVIEWAvdioManager;
 			sourceTree = "<group>";
 		};
 		CA55EA24B19AB1CADE7889170782AF4D /* Support Files */ = {
@@ -438,25 +544,37 @@
 			path = "Target Support Files/Pods-XVIEWAvdioManager_Tests";
 			sourceTree = "<group>";
 		};
-		F2761EB3306A68954B567F06BEBACAD1 /* Development Pods */ = {
+		F1E80BC34E1F60C7A1F5E22B22D72931 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				5BD7CF430169EFF19E55963CD2BCBBC2 /* XVIEWAvdioManager */,
+				2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */,
+				57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */,
+				A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */,
+				89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */,
+				CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */,
+				2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */,
+				195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */,
+				E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */,
 			);
-			name = "Development Pods";
+			name = resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FE80229A6EACC84860DE265D3EE50562 /* XVIEWAvdioManager */ = {
+			isa = PBXGroup;
+			children = (
+				441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */,
+				7AAFB34B654A53E700F76524FAC91DDE /* Pod */,
+				73B80B5760A936FE28509CB9F15DB802 /* Support Files */,
+				C2D721A611C8EEDC55022DA67AAE21B2 /* XVIEWAvdioManager */,
+			);
+			name = XVIEWAvdioManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		024A60CD6745E6C7515210B486C15316 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D201F2E1724ACE561590A7F449B7900 /* XVIEWAvdioManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		11977B09A64DFAC6256104A36C991BFB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +615,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D570D892DEF2F00F610FFB9B43B6F09 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7E8652F9D5ACF1598E191CBB80D004 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73E7D9EE4D9BFAE75359D2641463160 /* AudioPlayerManager.h in Headers */,
+				CBA597C0605409A6D8D42D58A4726A40 /* AudioProcessManager.h in Headers */,
+				0197271DC6D0B9E425BEE13AFDC78273 /* AudioRecordView.h in Headers */,
+				122771D2218771EF2F1F77B5AC3069D9 /* BBHoldToSpeakButton.h in Headers */,
+				5D3C11407150B18CE5A0B208A105EB37 /* BBVoiceRecordController.h in Headers */,
+				EAB9D9C5C6E53D761B2B5434CBFD4886 /* BBVoiceRecordHeaderDefine.h in Headers */,
+				8412010539B2AC1AE6DE6105E9C28B25 /* BBVoiceRecordPowerAnimationView.h in Headers */,
+				5FB656F3FED005AA38416DBB0A96978B /* BBVoiceRecordToastContentView.h in Headers */,
+				4D102FDF82ABC33C628F57AA3C8DDB87 /* BBVoiceRecordView.h in Headers */,
+				F5603D356E7E72A352BA291F5D17A8FB /* UIColor+BBVoiceRecord.h in Headers */,
+				8C32BF53E985C63BDD97C0B7FAA3D4EE /* UIImage+BBVoiceRecord.h in Headers */,
+				168DAD7508626C31307AD2753C6A6612 /* XVIEWAvdioManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,9 +716,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96358C93C9FE2BAD4951917D653AA71C /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */;
 			buildPhases = (
-				89E023E9B3EAD60DAF43F2ED2833F125 /* Sources */,
+				C04162BA481F414A3F6360ED578231C9 /* Sources */,
 				F9B88D95EF255BD7F3852C8C6CAFEB85 /* Frameworks */,
-				024A60CD6745E6C7515210B486C15316 /* Headers */,
+				9F7E8652F9D5ACF1598E191CBB80D004 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -642,20 +779,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89E023E9B3EAD60DAF43F2ED2833F125 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20F61F58968C6CD31F5B562598E1EEF8 /* ReplaceMe.m in Sources */,
-				8527D80B6EE2F1B96A074B588B14F139 /* XVIEWAvdioManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		912D9B027EC931A95611E18EAB901B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C91DFDA64C9A6A06CBEA031CE2D1F7C4 /* Pods-XVIEWAvdioManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04162BA481F414A3F6360ED578231C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39BB2489ABEE210AB81F16012BED3DB /* AudioPlayerManager.m in Sources */,
+				6DD5A0E698E1A59F8609B854CEE8BC46 /* AudioProcessManager.m in Sources */,
+				1BE27ED202B48D4B87821A5B1C3AD66B /* AudioRecordView.m in Sources */,
+				4D5AD5B165929655DCB8ECFE190F4AAE /* BBHoldToSpeakButton.m in Sources */,
+				79C2B296B9DFA62AE8F1B37564373DA5 /* BBVoiceRecordController.m in Sources */,
+				C634D34B5E390D3AA35FDFED6616D9F9 /* BBVoiceRecordPowerAnimationView.m in Sources */,
+				F7303DBC70BF4E80413A352FB39ABD82 /* BBVoiceRecordToastContentView.m in Sources */,
+				8E8949F8CB8A09D1C3A461BB62CC0147 /* BBVoiceRecordView.m in Sources */,
+				0D14951B6CA72A5F4CDE7BC5F3C36072 /* ic_record@2x.png in Sources */,
+				2BFC6DE4E25B95004045AAFFECBE8907 /* ic_record@3x.png in Sources */,
+				18B99F040E01BD14F119E52D1EA87EF5 /* ic_record_ripple@2x.png in Sources */,
+				50C2D82F7D4CACE510109B826E704D07 /* ic_record_ripple@3x.png in Sources */,
+				097C0711156D7D6B78B566C51918F591 /* ic_record_too_short@2x.png in Sources */,
+				AF0596FC7C7ECB3BC910CC66FA66BD9D /* ic_record_too_short@3x.png in Sources */,
+				C5DC805480A106E2886FDEFD3532BB99 /* ic_release_to_cancel@2x.png in Sources */,
+				6B6E1CD4D8016B4D4AAD52D9790F1361 /* ic_release_to_cancel@3x.png in Sources */,
+				155D7C2CB4E3727D4AE1550E127FD567 /* libAvdioManager.a in Sources */,
+				C9BB5ED9101B08A5F71B9B2C85A85290 /* ReplaceMe.m in Sources */,
+				59BAF69EE322D5483E935B680E251534 /* UIColor+BBVoiceRecord.m in Sources */,
+				FF12679D63F0CB33A954EEF5E8C9A603 /* UIImage+BBVoiceRecord.m in Sources */,
+				AA6561DB518006F48285E2B2544B089C /* XVIEWAvdioManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,7 +1222,7 @@
 		};
 		DAE1611492E4C8203C3FE34E189AA0A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD3AF06CD589E9F6842E72FC183F073 /* XVIEWAvdioManager.xcconfig */;
+			baseConfigurationReference = 4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1127,7 +1283,7 @@
 		};
 		EA5EA90B0048EBB0EE596E191649C3E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD3AF06CD589E9F6842E72FC183F073 /* XVIEWAvdioManager.xcconfig */;
+			baseConfigurationReference = 4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
