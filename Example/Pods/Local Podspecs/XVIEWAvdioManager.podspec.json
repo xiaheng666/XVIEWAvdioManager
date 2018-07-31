@@ -1,22 +1,30 @@
 {
   "name": "XVIEWAvdioManager",
-  "version": "0.1.0",
-  "summary": "A short description of XVIEWAvdioManager.",
+  "version": "0.1.1",
+  "summary": "音视频相关，包含录音，上传视频",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/maomao520benben/XVIEWAvdioManager",
+  "homepage": "https://github.com/xiaheng666/XVIEWAvdioManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "maomao520benben": "key@xiaheng.net"
+    "xiaheng666": "key@xiaheng.net"
   },
   "source": {
-    "git": "https://github.com/maomao520benben/XVIEWAvdioManager.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:xiaheng666/XVIEWAvdioManager.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWAvdioManager/Classes/**/*"
+  "source_files": "XVIEWAvdioManager/Classes/**/*",
+  "dependencies": {
+    "StreamingKit": [
+      "~> 0.1.29"
+    ],
+    "LameTool": [
+      "~> 0.0.2"
+    ]
+  }
 }

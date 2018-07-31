@@ -1,15 +1,26 @@
 PODS:
-  - XVIEWAvdioManager (0.1.0)
+  - LameTool (0.0.2)
+  - StreamingKit (0.1.30)
+  - XVIEWAvdioManager (0.1.1):
+    - LameTool (~> 0.0.2)
+    - StreamingKit (~> 0.1.29)
 
 DEPENDENCIES:
   - XVIEWAvdioManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LameTool
+    - StreamingKit
 
 EXTERNAL SOURCES:
   XVIEWAvdioManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWAvdioManager: 72b01a6bfaa4da4bacaf0e782b51f40b772ad76f
+  LameTool: e987858ac6065162221c0c444d364d401a86b8c1
+  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
+  XVIEWAvdioManager: 75e103e73ecb9dce9f72aa523bda2cf66a30aa68
 
 PODFILE CHECKSUM: 03257b370150a6c196541712596d9898cadc6152
 

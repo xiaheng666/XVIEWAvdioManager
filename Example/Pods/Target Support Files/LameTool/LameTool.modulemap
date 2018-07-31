@@ -1,0 +1,6 @@
+framework module LameTool {
+  umbrella header "LameTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
