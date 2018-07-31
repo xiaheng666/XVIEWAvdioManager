@@ -270,7 +270,7 @@
         fclose(pcm);
     }
     @catch (NSException *exception) {
-        DLog(@"exception->%@",[exception description]);
+        NSLog(@"exception->%@",[exception description]);
         return _mp3Url;
     }
     @finally {
@@ -292,7 +292,7 @@
     if ([manager fileExistsAtPath:filePath]) {
         return [[manager attributesOfItemAtPath:filePath error:nil] fileSize];
     } else {
-        DLog(@"fileSizeAtPath==计算文件大小：文件不存在");
+        NSLog(@"fileSizeAtPath==计算文件大小：文件不存在");
     }
     return 0;
 }

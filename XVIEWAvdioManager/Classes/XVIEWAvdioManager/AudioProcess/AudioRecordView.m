@@ -16,7 +16,9 @@
 #define kFakeTimerDuration       0.5
 //#define kMaxRecordDuration       60
 #define kRemainCountingDuration  3     //剩余多少秒开始倒计时
-
+//获取屏幕宽高
+#define Screen_Width  ([[UIScreen mainScreen] bounds].size.width)
+#define Screen_Height ([[UIScreen mainScreen] bounds].size.height)
 #define CloseBtn       @"关闭录音"
 @interface AudioRecordView()
 
@@ -82,7 +84,7 @@
         __weak typeof(self) weakSelf = self;
         _recordManager = [AudioProcessManager defaultAudioProcessManager];
         _recordManager.recorderPlayerBlock = ^(NSDictionary *callback) {
-            DLog(@"calback->%@", callback);
+            NSLog(@"calback->%@", callback);
             weakSelf.callbackPara = callback;
             if ([weakSelf.callbackPara[@"code"] isEqual:@"0"]) {
                 if (weakSelf.myRecordBlock) {
