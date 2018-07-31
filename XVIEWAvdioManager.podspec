@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAvdioManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '音视频相关，包含录音，上传视频'
 
 # This description is used to generate tags and improve search results.
@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 s.dependency 'StreamingKit', '~> 0.1.29'# 音视频
 s.dependency 'LameTool', '~> 0.0.2'    # 音视频
+s.dependency 'Masonry'   # 音视频
 end
