@@ -323,12 +323,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LameTool/LameTool.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LameTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWAvdioManager.framework",
 			);

@@ -7,246 +7,323 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0197271DC6D0B9E425BEE13AFDC78273 /* AudioRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		097C0711156D7D6B78B566C51918F591 /* ic_record_too_short@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */; };
-		0D14951B6CA72A5F4CDE7BC5F3C36072 /* ic_record@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */; };
-		122771D2218771EF2F1F77B5AC3069D9 /* BBHoldToSpeakButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		155D7C2CB4E3727D4AE1550E127FD567 /* libAvdioManager.a in Sources */ = {isa = PBXBuildFile; fileRef = 8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */; };
-		168DAD7508626C31307AD2753C6A6612 /* XVIEWAvdioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		188800886CEEE7CCE5C904CAE9F1B0BE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AD6AE620276698484131620E79BA83 /* CoreFoundation.framework */; };
-		18B99F040E01BD14F119E52D1EA87EF5 /* ic_record_ripple@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */; };
-		1BA20E7DE75BC18110CCF6DE2890B2F0 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72679A1AB41E9705C2C9CAB7699F668F /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BE27ED202B48D4B87821A5B1C3AD66B /* AudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */; };
-		1C60F8606C1A43719865A01F50403F65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C729D2E8507C10CAA7C459F13BD81F1 /* CFNetwork.framework */; };
-		1D367881B6D08C92975ECE68AA1306E3 /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515036CD0741C6E518AD6E11DD5A5CE0 /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2092436ECA08E57084A46572F50D74FA /* LameTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC5D0C21C2F35BA95B0A42593E32F0 /* LameTool.framework */; };
-		20EE564AEE2CA1D4D6AE04CF4A93FC7E /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */; };
-		260C200F6FA3FC5EF749269C0950587F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
-		26703F4B9985D52F33DC1D85C877E054 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4279684CE29B488B6EB40DE8F440248 /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BBFE164BE76ED023905E19367664E19 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18B77260A7B0D10E4E92BFC764C0AE /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2BFC6DE4E25B95004045AAFFECBE8907 /* ic_record@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */; };
-		303B22BBACC9BE89B77D7EF5EFD23F3A /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FEED6BBDD92724D2A3D7D5342AB91228 /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3100D41AA80CA373E265C0985EAE1DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
-		3537DD76FE48A5BFD00B636D43EA8802 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D83ED94C0FBB8BC4E25AFAC5A7185B1F /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		43AA85CD94185C11E6A69C23B651C124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
-		4A014D2DAFBBD2B56CF7D1C4414A2092 /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D23776470A2D434D716F8E0E31A35493 /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A15FD1A24A2D182BA3E8DD26B83D962 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A18228D6D5381F954EF8F04210A9F59 /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D102FDF82ABC33C628F57AA3C8DDB87 /* BBVoiceRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D5AD5B165929655DCB8ECFE190F4AAE /* BBHoldToSpeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */; };
-		50C2D82F7D4CACE510109B826E704D07 /* ic_record_ripple@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */; };
-		51B1D9EDE8DACB105159318AE50978AE /* LameTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FED16053AC743FE685E63330E570671 /* LameTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5671A37733FA70E59C214D4B2D5E8E58 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ADB24F2219CCDDE4FCBFF6D995DE66 /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		59BAF69EE322D5483E935B680E251534 /* UIColor+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */; };
-		5D3C11407150B18CE5A0B208A105EB37 /* BBVoiceRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FB656F3FED005AA38416DBB0A96978B /* BBVoiceRecordToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69341D0A8EA6A7228457757E3C23DC65 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E29C698E66065B6CD3D5F3060FB52E4B /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6B6E1CD4D8016B4D4AAD52D9790F1361 /* ic_release_to_cancel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */; };
-		6DD5A0E698E1A59F8609B854CEE8BC46 /* AudioProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */; };
-		74EABE205910643F45F774667A2E7E58 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6CA0523577956E4BBE3C609335404E /* AudioToolbox.framework */; };
-		764E26CA1C214713A9AB0C188C36794B /* LameTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F9D488BDA0A6A6968B1132A7175FA6 /* LameTool-dummy.m */; };
-		79C2B296B9DFA62AE8F1B37564373DA5 /* BBVoiceRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */; };
-		7D477027A5B99078A65A5569AE0C5C97 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5614CED7A49066732309468EFD51D605 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F1EC4A7BCA5FA91AF2D12F039C555EC /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7536A59E7A8FFCFB88C5875B3509BA62 /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8067AC38EC7D376229BC17226F766E49 /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF1C9E6027B7081EE9E86439A904CAA /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		832619C5DFA09DB17D0A1A46A0874F3A /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DCBE71745BA24900360AA5DE4A87016 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8412010539B2AC1AE6DE6105E9C28B25 /* BBVoiceRecordPowerAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		862759B9A5B730190500AD79478E7556 /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD3B7E14728487AEC031AF14AC13897 /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C32BF53E985C63BDD97C0B7FAA3D4EE /* UIImage+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D570D892DEF2F00F610FFB9B43B6F09 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E8949F8CB8A09D1C3A461BB62CC0147 /* BBVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */; };
-		90E4BFFB072D3DD145D5C75FD50F5623 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B10CE00D12424624CF9CA1E7EA503D /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		921951CB5A68D4162F0B77007FBDDDF6 /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9894A1B33D85E9446ECB57A88F5D2538 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EE9FCFACE1F72CB8A68C6AF4A3BECBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
-		AA6561DB518006F48285E2B2544B089C /* XVIEWAvdioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */; };
-		AE49A2E6AA59AA9C5920050D15416B41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D422AFBF6890B2859E9F8247C37BD007 /* SystemConfiguration.framework */; };
-		AF0596FC7C7ECB3BC910CC66FA66BD9D /* ic_record_too_short@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */; };
-		B94CA64F695FEDBFB004BA79C105D16B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */; };
-		BE27C6CD0AC44CA95B445DD22321B5E4 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA53957F44079B7CCFF51043E4AC988D /* LameTool.m */; };
-		C5DC805480A106E2886FDEFD3532BB99 /* ic_release_to_cancel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */; };
-		C634D34B5E390D3AA35FDFED6616D9F9 /* BBVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */; };
-		C902C583AEC721DBA927199F0A1C6B9C /* LameTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A22D819C78F1ECE494BDBFA3655FCF /* LameTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4BBEC16D4BA13349073B2506ED7088 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7641689E1FEE11D483AA0519785566B /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DA15323FD2CAEF40C65F6AACD6C627 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A754FB5A779253138579B0C06560F8 /* STKQueueEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DD7EC3B982A617F4001157BE4A7134 /* STKQueueEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD3FCC084DE67BD548F7C0E7CF64890 /* BBVoiceRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C368FE7DFE37C7D8AD96B68719A5291 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA8828F9B7586C953794C3C70F49D88 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC76457C300FD05ADE58BDA6FADC0316 /* UIKit.framework */; };
+		14C13B556BB1359D28851FC9AC912D7D /* STKCoreFoundationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5473D9D14FC1B0CAE0E188FD0B5FA66C /* STKCoreFoundationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21FCFF5C9DB48AB53EF705F09F514509 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91A83C507F20E81C6B088FB561615D /* CFNetwork.framework */; };
+		22C66061E84DF78DD900394FE8DC04D2 /* UIImage+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */; };
+		25C0164737DC773556FBFF435FC5224C /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 541D19AADABE4BD7B233452D9A296993 /* STKQueueEntry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27CD4131EA7C161A8D39E299A9838AA5 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E40BE46ABE647F079FE4A2CCD496D7 /* STKLocalFileDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9C75E6DA16572355BFBEAD93F0F81C /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3100D41AA80CA373E265C0985EAE1DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		390DB7B07D9A7DCCA7ED75A7B529F9C5 /* STKDataSourceWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3AD1E9E1AFBB8FA1EF3FC62BB7EA5A /* STKDataSourceWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C420E651A2B2E5135CBC180802F6230 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F5A77BC824A8D189DB42A7AB29B3 /* STKCoreFoundationDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D8ACE583DB417FD8CAD2EEAF964C203 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0423AE6785F87555C37FEED45CD9C /* STKHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4278B081C52DC8B685F44270941C6007 /* XVIEWAvdioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42883875BD9876C22BD9CA274879ED9E /* LameTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D684B2943D7D488387438A02C9465B15 /* LameTool.framework */; };
+		43AA85CD94185C11E6A69C23B651C124 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C392F909CE5C755A88F522FCDA5F8576 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4680C9F1199D629250AF5E8486AC08A7 /* NSMutableArray+STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF24EAB80AAEE312A976230857A0057 /* NSMutableArray+STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483D7E33F0DD00AD192A80F22231AB14 /* AudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */; };
+		4A15FD1A24A2D182BA3E8DD26B83D962 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 489CE4C43C827EA89C8E4A0F1670957E /* lame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBD9EFDBF51188DD5BB6D0EB6FB44E7 /* BBVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */; };
+		4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A589A5EED9CA4B341B049ED85EB1E2B5 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		510BC9A91A073997F1362EC4F0F33CCC /* UIColor+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */; };
+		51B1D9EDE8DACB105159318AE50978AE /* LameTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D767873BE1774BE96C516F6E9F24B6B /* LameTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C18338161904AA1F4CE8B528E98562 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A71B8C047AEF969D7690A5FC704A31 /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDC2AC0E2F06334C03195866325456E /* MASCompositeConstraint.m */; };
+		5722C261F47AE0BDF884BF54B6C79B50 /* STKHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F96B408471FEA72A2399F898513066 /* STKHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E367725A38A4A9B981539362405EDCB2 /* MASConstraint.m */; };
+		61601B40DE1A648B98D678552C8C9522 /* ic_record@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */; };
+		635350E3D2AFD48B732B94BB67EBF717 /* BBHoldToSpeakButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC8305158C5D3E709EC1871EF3A6F5A /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B625139B6B5C47B011AD61B6218BD1 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E363C816A96A5F8DE04EC60FD948FF7 /* STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B95BBF39A13385BE0AD8D8C5E7F590 /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E9F10285A144B34F34366DE5A97428 /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A929FDB99437E55296E00E1D556450 /* MASViewConstraint.m */; };
+		75D27D33932264EDE038D0AD5C11321C /* StreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96747686E61FD6025D97488688466C6 /* StreamingKit.framework */; };
+		764E26CA1C214713A9AB0C188C36794B /* LameTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34508C2BA11FD53CD84CCE4387775B76 /* LameTool-dummy.m */; };
+		76CA6D209844229345C256DAA0D64C70 /* BBVoiceRecordToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FC20B5EB7BB3553E782BB8AD575D2203 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CA454E5A7EEDCD6A0C5728E5F4F3654 /* libAvdioManager.a in Sources */ = {isa = PBXBuildFile; fileRef = 8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */; };
+		7ED58FE38F55C428A7C42445D56EE1A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8964F9DB83E86080C5C4809C0E14DB64 /* SystemConfiguration.framework */; };
+		7EDA426A61F3C484E9C9BEB8741A6BA2 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84006E943E38F2D66601D2E52C15A23F /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F19DAB4478B6554D5BEF0904E40736F /* AudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */; };
+		80407E90FCD751EA197E3C9A39944478 /* BBVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */; };
+		83531A114202DE633B0588ED99468A5E /* StreamingKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E7B001B9DE432D84B084B6B829EDC8 /* StreamingKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C53F1EC8DEE7B881DF8099F815142E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E324869D04C1B15CA1D081351F4766 /* Masonry.framework */; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AECEF847BE361C2CD74B91824EE4AC1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 519BD78332EF98DAADBDAA0690064E0A /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F568CDF1C66EF858BC90CC9FB25E1A1 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D6C8FBFD65EA0496201DFDAEF09AACD /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */; };
+		8D8F3124887BA47EBF31470B2BE5210A /* ic_release_to_cancel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */; };
+		9073E8EA8ECA25FA394E1BFAA607812E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		91F026C4C7CF4E747B7B190F6A8CB363 /* ic_record_too_short@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */; };
+		9319ED8DA67E935D63EB8A56DF156F47 /* STKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3312D0B28630ADC7A71F7E635B983729 /* STKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9920504DDC25463752113B18B8785A13 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D917B09E2C777A78CC46D32664C3911 /* NSMutableArray+STKAudioPlayer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B0FDF1F734840BC5A0BE85BFF196D36 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5C4A121626F69E996992C0B6677E7 /* CoreFoundation.framework */; };
+		9B27497447C9F8CE28E2A3CAA1F9D59A /* AudioProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A03E583D5DD6AD960C9E0EC8A6B2ECBB /* Masonry-dummy.m */; };
+		A15351143B946107415E6D000E331172 /* BBVoiceRecordPowerAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A154B0A5BAD96A14140BC18F7E1DFE51 /* BBVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 466182D011544A593D03D67FB3DF1168 /* MASViewAttribute.m */; };
+		A941224F9DB4A72B8864961CA83610A8 /* BBVoiceRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */; };
+		A96DB04B9803BECB2D11B96E0E9AE690 /* ic_record_too_short@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F5BA8045C977278B5DA29CBF6D0E02 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FC5DD212E7101CE1EC9F04BB92C690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		B8610D995ADFDC28E09BF866BBB9E0F2 /* BBHoldToSpeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */; };
+		BE27C6CD0AC44CA95B445DD22321B5E4 /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A8B06861BD59C9D23BD713D2078AA /* LameTool.m */; };
+		C00D5018BCB8ED2CD2AB63832F79EA69 /* UIImage+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBC851E5FBD0E96F9AD5BB6DA5E5BFC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F30CC67E109E84F9A759802AD5834B /* AudioProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */; };
+		C8899FDD3F997DFDB62FA8615F17C12C /* AudioPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB5B43EC8282B42E5C47E594616329B /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C902C583AEC721DBA927199F0A1C6B9C /* LameTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A817B70486A40E372DDD46B06BA9C90 /* LameTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C91DFDA64C9A6A06CBEA031CE2D1F7C4 /* Pods-XVIEWAvdioManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */; };
-		C9BB5ED9101B08A5F71B9B2C85A85290 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */; };
-		CBA597C0605409A6D8D42D58A4726A40 /* AudioProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF1E3DB07F18C8A9FFE02A6114A9A15F /* StreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9F7621C17DDABF70B4DEEC303AD9FE /* StreamingKit.framework */; };
-		D0A8C4203761505DB8DCA80ED6FBE770 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE1C89480E46BEA975D29B7F75F5BA1 /* STKDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DF1C070F68739675AAD5C71CFCCC0448 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD743E5B13EB0895A9DEBCC3A36F74E /* STKDataSourceWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E1D23C972A7B7F288455F66FC51F9A35 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B12079A694F251C8F52213BDEA47E408 /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E39BB2489ABEE210AB81F16012BED3DB /* AudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */; };
-		EAB9D9C5C6E53D761B2B5434CBFD4886 /* BBVoiceRecordHeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5603D356E7E72A352BA291F5D17A8FB /* UIColor+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7303DBC70BF4E80413A352FB39ABD82 /* BBVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */; };
-		F73E7D9EE4D9BFAE75359D2641463160 /* AudioPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F74D3D8028BF725F1154076705361481 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F8D907D78DF7AC2BC0E766635F5FA /* StreamingKit-dummy.m */; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = BF65E09A504044D025C80B0D4942597D /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEEFFD962F735814E223C70569627C9F /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A8490FE512BE89B4187DA76D3ADB9F /* XVIEWAvdioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E286A25DC0B98BCCCDBCC210F8E3540 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD09412253DF00750B0547FDC6901B1 /* ic_record@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */; };
+		DCE0899920FE6B092EFC6CF84D5AA414 /* BBVoiceRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB99B75A9C6C93BFB6C3AE6053D2DB4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */; };
+		E137A14B00FC4FC2374BFB3BB9CC5531 /* STKAutoRecoveringHTTPDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 38599B65380E4D597BB2C2414BC79ACE /* STKAutoRecoveringHTTPDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3074ABE221B4293C959E83CFEA8BEB9 /* STKAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA9C30BB00658117ADC8BBB6AC3E85F /* STKAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B5FB8E75EED895977F5C9A80D16E1 /* NSArray+MASAdditions.m */; };
+		E956FC832B16A70A29C033EA7B2685FA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600CB77D6640A806AE8DF975A4615D31 /* AudioToolbox.framework */; };
+		EB1F9EB3672EFA3114671F69AAE65877 /* StreamingKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6D3A0647E240AF210918CF0DD2F25 /* StreamingKit-dummy.m */; };
+		EB51046C39AC7D7D1EAA88FC51F52C9E /* STKLocalFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0611BFEF1000A6AF2475C3CBDF021531 /* STKLocalFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3D560A1CAA67B77B33256193B66506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */; };
+		F386A923CF5B1387D5CFEE5E1CB7C367 /* UIColor+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D51D74BAD1004AA1A676418D8475C0 /* ic_record_ripple@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */; };
+		F49D928349791A842323A99414287DB9 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE5048785FE31CF06ADA2468E7549A /* STKAutoRecoveringHTTPDataSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C653038D7E472778945F4E07977E2F2D /* View+MASAdditions.m */; };
+		F6E506EE0E45B633D481D3FFD8F9B497 /* AudioRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82249F10C8F8D0AD649BED7DD0145B4 /* ic_release_to_cancel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */; };
+		F8B3840A435C04AC03BCF43B65DBFA68 /* ic_record_ripple@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */; };
 		FE4112F1D0783391F7DB03FD41EA4ECA /* Pods-XVIEWAvdioManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF12679D63F0CB33A954EEF5E8C9A603 /* UIImage+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */; };
+		FE7ACB111886EC0FCD7692A2A029FF0F /* BBVoiceRecordHeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D32B442434E558FF7DAE5DFF244A463 /* PBXContainerItemProxy */ = {
+		1C0EEBB4487965B68A7369D25C174626 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5106338AAAE417B6ED9B377ADF233D3F;
+			remoteGlobalIDString = E51E31B8BA5F5FBCCBD69C10EF674538;
 			remoteInfo = StreamingKit;
 		};
-		56FD1C545670FB2CF9E635442FBBF08A /* PBXContainerItemProxy */ = {
+		27AA272868E5792860FF8DA86C9E775A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A419FCBCCFD4D3C5B84D2075F180986B;
+			remoteGlobalIDString = C402299635A546AB90D1492F32E3CA28;
 			remoteInfo = XVIEWAvdioManager;
 		};
-		763D9D15ECA07823CC3DB01A2217904D /* PBXContainerItemProxy */ = {
+		96080574A5A32122A98BD1BBA1742651 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 61467BA2A20C27EB50517B63FC289A66;
-			remoteInfo = LameTool;
-		};
-		8E9CC2A5703DCAD4A29DEF810AF9F0A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61467BA2A20C27EB50517B63FC289A66;
-			remoteInfo = LameTool;
-		};
-		CDEEEC6F13804981CB8A854BB59B7F0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5106338AAAE417B6ED9B377ADF233D3F;
+			remoteGlobalIDString = E51E31B8BA5F5FBCCBD69C10EF674538;
 			remoteInfo = StreamingKit;
+		};
+		CEE0A4F87D7EBA1B6C6D31CF3A42444B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
 		};
 		D44E1F5652426191735951F92D1C0111 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A16DE826A47E6854EB83AE2811367BEF;
+			remoteGlobalIDString = 04B7C0CEAAEC27C20BAAB62554C983BA;
 			remoteInfo = "Pods-XVIEWAvdioManager_Example";
+		};
+		D9A994B42178EF7F24CF88174BFDA69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+		DCFCD1D52053EAF5089772CF9626A341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61467BA2A20C27EB50517B63FC289A66;
+			remoteInfo = LameTool;
+		};
+		E08C0E13C3F2347B89D7CAD91CD9A75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61467BA2A20C27EB50517B63FC289A66;
+			remoteInfo = LameTool;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0498997FB018274AE18160548DE3734B /* XVIEWAvdioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWAvdioManager.framework; path = XVIEWAvdioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08C3E3EB8BF59CED5E4AE894238906DA /* LameTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LameTool-prefix.pch"; sourceTree = "<group>"; };
-		09B10CE00D12424624CF9CA1E7EA503D /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
-		0A6CA0523577956E4BBE3C609335404E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		0AE1C89480E46BEA975D29B7F75F5BA1 /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		00F5BA8045C977278B5DA29CBF6D0E02 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		01BE5048785FE31CF06ADA2468E7549A /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		04D4520327D93D50643DEFC101C26838 /* Pods_XVIEWAvdioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Example.framework; path = "Pods-XVIEWAvdioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0611BFEF1000A6AF2475C3CBDF021531 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		06E40BE46ABE647F079FE4A2CCD496D7 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKLocalFileDataSource.m; path = StreamingKit/StreamingKit/STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		0CA8828F9B7586C953794C3C70F49D88 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		0D2CECE854A70131A96EFF1E3AAF9885 /* Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0EA72D2ECE5FF796E7AB93B4522D9622 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = LameTool/LameTool/libmp3lame.a; sourceTree = "<group>"; };
+		0EFA8E808C60F117A43635F3647E0C97 /* XVIEWAvdioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWAvdioManager.framework; path = XVIEWAvdioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		106334AF410F76A3F55271DAF5F85536 /* BBVoiceRecordToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordToastContentView.m; sourceTree = "<group>"; };
 		13035669838CF34A1B1471BCC4159A5D /* UIColor+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BBVoiceRecord.m"; sourceTree = "<group>"; };
 		140D66B482CE5F228393C34385AFF31F /* XVIEWAvdioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWAvdioManager.modulemap; sourceTree = "<group>"; };
-		193CBA829DCCB766E4671BF9B45A6AC3 /* Pods_XVIEWAvdioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Tests.framework; path = "Pods-XVIEWAvdioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		195EEB083C1E969D67FB952C861D65AC /* ic_release_to_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@2x.png"; sourceTree = "<group>"; };
-		1AAC5D0C21C2F35BA95B0A42593E32F0 /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		200AC70F7F571F975FC7C317CF6678DC /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StreamingKit.modulemap; sourceTree = "<group>"; };
+		19B0423AE6785F87555C37FEED45CD9C /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
+		1D1BF413D30A6B2CCDBDCD61F9363096 /* Pods_XVIEWAvdioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Tests.framework; path = "Pods-XVIEWAvdioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D767873BE1774BE96C516F6E9F24B6B /* LameTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LameTool.h; path = LameTool/LameTool/LameTool.h; sourceTree = "<group>"; };
 		20DF77E3094FE7834E734888A0941F14 /* Pods-XVIEWAvdioManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Example-dummy.m"; sourceTree = "<group>"; };
-		2823C00A7EDE51C2A70786BFE0F3DC57 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StreamingKit.framework; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E4FDF67CB61E35131559D515693C6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A1D1008D3F516D41BA85DB53DEC615B /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
 		2BBFBEDCD816D1FC2C920FFFD1E03963 /* ic_record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@2x.png"; sourceTree = "<group>"; };
 		2F5D595ABFC1577AECE67DE376CB4804 /* AudioRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioRecordView.h; sourceTree = "<group>"; };
 		2FBBC3C56D4F80D47DB942904332CD38 /* ic_record_too_short@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@3x.png"; sourceTree = "<group>"; };
+		3312D0B28630ADC7A71F7E635B983729 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
+		33A10C6FC1A169D57CEE73259E032A01 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		34508C2BA11FD53CD84CCE4387775B76 /* LameTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LameTool-dummy.m"; sourceTree = "<group>"; };
+		34E7B001B9DE432D84B084B6B829EDC8 /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
+		38599B65380E4D597BB2C2414BC79ACE /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		3C368FE7DFE37C7D8AD96B68719A5291 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		3FD6D3A0647E240AF210918CF0DD2F25 /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
 		40CB82D327C8158E1E323968D7D022CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		441721A28C98D78536EFF0517475D1E7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWAvdioManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		4A18228D6D5381F954EF8F04210A9F59 /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = LameTool/LameTool/lame.h; sourceTree = "<group>"; };
+		466182D011544A593D03D67FB3DF1168 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		480B5FB8E75EED895977F5C9A80D16E1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		489CE4C43C827EA89C8E4A0F1670957E /* lame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame.h; path = LameTool/LameTool/lame.h; sourceTree = "<group>"; };
+		48A929FDB99437E55296E00E1D556450 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		49F96B408471FEA72A2399F898513066 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
+		4A817B70486A40E372DDD46B06BA9C90 /* LameTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LameTool-umbrella.h"; sourceTree = "<group>"; };
 		4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWAvdioManager.xcconfig; sourceTree = "<group>"; };
-		4BFAE5CF6D0CBA268F6025BAF5702360 /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LameTool.framework; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E286A25DC0B98BCCCDBCC210F8E3540 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4E3FA8C122F2773F27F2B8633BBDBF9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCDB95DBCDC063CBA5667DA7B61801D /* XVIEWAvdioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-umbrella.h"; sourceTree = "<group>"; };
-		515036CD0741C6E518AD6E11DD5A5CE0 /* StreamingKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-umbrella.h"; sourceTree = "<group>"; };
+		519BD78332EF98DAADBDAA0690064E0A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		541D19AADABE4BD7B233452D9A296993 /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		5473D9D14FC1B0CAE0E188FD0B5FA66C /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
 		55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5614CED7A49066732309468EFD51D605 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKHTTPDataSource.h; path = StreamingKit/StreamingKit/STKHTTPDataSource.h; sourceTree = "<group>"; };
 		57639455CA42AE69ACC8FD0646D7BF27 /* Pods-XVIEWAvdioManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-resources.sh"; sourceTree = "<group>"; };
 		57F511AC7458684C9025D4C8355AA0B2 /* BBVoiceRecordHeaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordHeaderDefine.h; sourceTree = "<group>"; };
 		57FB031CCEA9D0096DEA2C1FA26032E1 /* ic_record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@3x.png"; sourceTree = "<group>"; };
 		58A9E85994BCA420176FB0D20C9538A5 /* BBVoiceRecordPowerAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordPowerAnimationView.m; sourceTree = "<group>"; };
+		5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		600CB77D6640A806AE8DF975A4615D31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		60E9F10285A144B34F34366DE5A97428 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		68030DCF62AC43783DDFFDB105045ADE /* AudioProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioProcessManager.m; sourceTree = "<group>"; };
+		69A71B8C047AEF969D7690A5FC704A31 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
 		69C3663BF310F9C82A3EA4C72F08B300 /* Pods-XVIEWAvdioManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		69E53BF39C21359E789124564655DB28 /* Pods-XVIEWAvdioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A1E9B7F97A029BEBD60980854070D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4BBEC16D4BA13349073B2506ED7088 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		705AE0D98AE425F8A334430AB7EC24B5 /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		72679A1AB41E9705C2C9CAB7699F668F /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
 		7433F37532C5BAEEE3FCD423951BD603 /* BBVoiceRecordController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordController.m; sourceTree = "<group>"; };
-		7536A59E7A8FFCFB88C5875B3509BA62 /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
+		765AA61BCDACEE8980F9CE931ADBCB6C /* LameTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LameTool.modulemap; sourceTree = "<group>"; };
 		782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7849A33DE2BC61CA5B50DEA9F40A5D07 /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
 		78EE47D93A9504A67CA539B054BBD6FC /* Pods-XVIEWAvdioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B18B77260A7B0D10E4E92BFC764C0AE /* STKHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKHTTPDataSource.m; path = StreamingKit/StreamingKit/STKHTTPDataSource.m; sourceTree = "<group>"; };
+		7A3AD1E9E1AFBB8FA1EF3FC62BB7EA5A /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		7AECEF847BE361C2CD74B91824EE4AC1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		7B234CE59E5E2F871FAED461C039D210 /* BBHoldToSpeakButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBHoldToSpeakButton.h; sourceTree = "<group>"; };
+		7D917B09E2C777A78CC46D32664C3911 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		7E363C816A96A5F8DE04EC60FD948FF7 /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
+		83B95BBF39A13385BE0AD8D8C5E7F590 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		84006E943E38F2D66601D2E52C15A23F /* STKDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSource.m; path = StreamingKit/StreamingKit/STKDataSource.m; sourceTree = "<group>"; };
+		84D5C4A121626F69E996992C0B6677E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		88C38935E99DDD9DA9ED225C8F63F71D /* BBHoldToSpeakButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBHoldToSpeakButton.m; sourceTree = "<group>"; };
+		89020BCD2447BD862A3A23ED1B760F21 /* LameTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LameTool.xcconfig; sourceTree = "<group>"; };
 		89408784C175A37B91CC5AE271F8579C /* ic_record_ripple@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@3x.png"; sourceTree = "<group>"; };
-		8D2A6F8BD4198C8373CC5BD801560995 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8964F9DB83E86080C5C4809C0E14DB64 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		8D88FDFBFC86BA9473B917BC9D833D62 /* libAvdioManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAvdioManager.a; sourceTree = "<group>"; };
-		8DCBE71745BA24900360AA5DE4A87016 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+STKAudioPlayer.m"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
-		8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90E324869D04C1B15CA1D081351F4766 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91189E4C04B8FA291A90740F4C98E5FA /* BBVoiceRecordController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordController.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93AD6AE620276698484131620E79BA83 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		97A22D819C78F1ECE494BDBFA3655FCF /* LameTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LameTool-umbrella.h"; sourceTree = "<group>"; };
-		9894A1B33D85E9446ECB57A88F5D2538 /* STKDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSource.h; path = StreamingKit/StreamingKit/STKDataSource.h; sourceTree = "<group>"; };
-		9A7F8D907D78DF7AC2BC0E766635F5FA /* StreamingKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StreamingKit-dummy.m"; sourceTree = "<group>"; };
-		9C729D2E8507C10CAA7C459F13BD81F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		9FED16053AC743FE685E63330E570671 /* LameTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LameTool.h; path = LameTool/LameTool/LameTool.h; sourceTree = "<group>"; };
+		9F568CDF1C66EF858BC90CC9FB25E1A1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9F6A8B06861BD59C9D23BD713D2078AA /* LameTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LameTool.m; path = LameTool/LameTool/LameTool.m; sourceTree = "<group>"; };
+		A03E583D5DD6AD960C9E0EC8A6B2ECBB /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		A0EAC944C62755E08FFC43E7D667D518 /* AudioPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerManager.m; sourceTree = "<group>"; };
 		A4D5DE11EAFB3C59A9B8012595070C22 /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAvdioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DA15323FD2CAEF40C65F6AACD6C627 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		A589A5EED9CA4B341B049ED85EB1E2B5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		A5A7C8440AF67752DFD39B62BDB5E100 /* UIColor+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BBVoiceRecord.h"; sourceTree = "<group>"; };
 		A6B507702F9E94793E9FFEAECE40BA5E /* ic_record_ripple@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@2x.png"; sourceTree = "<group>"; };
-		A7B92FBAD6E2CA9E6049CFC4ED70147A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F8E04E92F4A11A95AC0E91CFC4281B /* UIImage+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BBVoiceRecord.h"; sourceTree = "<group>"; };
-		ABBAB87B8FB79413B63646F1B1464C42 /* LameTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LameTool.xcconfig; sourceTree = "<group>"; };
-		ABF1C9E6027B7081EE9E86439A904CAA /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKCoreFoundationDataSource.h; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
 		AE782F83CF726729C2ADAF4A42CBD695 /* UIImage+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BBVoiceRecord.m"; sourceTree = "<group>"; };
-		B12079A694F251C8F52213BDEA47E408 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAutoRecoveringHTTPDataSource.h; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		AEB5B43EC8282B42E5C47E594616329B /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		B33BAF1AA1B6768ED21AA4018C8B93D7 /* AudioPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioPlayerManager.h; sourceTree = "<group>"; };
-		B4F9D488BDA0A6A6968B1132A7175FA6 /* LameTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LameTool-dummy.m"; sourceTree = "<group>"; };
+		B534A8271194AE7BEED1F3220CF93C6A /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LameTool.framework; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6430E2A255EBE032327378AFB341338 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		B76A4399C2D4156739967A33105C54AC /* AudioRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioRecordView.m; sourceTree = "<group>"; };
 		B870058AEE94151544C65016AC8AEEFF /* BBVoiceRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordView.h; sourceTree = "<group>"; };
-		BA56C9DE1127CE37DEF0FBE1D9B5CDFA /* StreamingKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-prefix.pch"; sourceTree = "<group>"; };
-		BB20A6DCDBD31EB873667DB23DC98DD3 /* LameTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LameTool.modulemap; sourceTree = "<group>"; };
+		B96747686E61FD6025D97488688466C6 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4208330845FD9CBCF93CD54C8FAD5A /* Pods-XVIEWAvdioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Example.modulemap"; sourceTree = "<group>"; };
-		BBD743E5B13EB0895A9DEBCC3A36F74E /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKDataSourceWrapper.m; path = StreamingKit/StreamingKit/STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		BB47F5A77BC824A8D189DB42A7AB29B3 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		BE87B859A78CCD4E04CE7349A6D18B7F /* LameTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LameTool-prefix.pch"; sourceTree = "<group>"; };
+		BE9C75E6DA16572355BFBEAD93F0F81C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BF04D4DDD5ECEF1CDCA923A6D103A05D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26F7E60A00FA3437B1B3D9005E85A9 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		BF65E09A504044D025C80B0D4942597D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		C392F909CE5C755A88F522FCDA5F8576 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		C653038D7E472778945F4E07977E2F2D /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		C72925B8C404A0E5B16B59099A92407A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C8ADB24F2219CCDDE4FCBFF6D995DE66 /* STKAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAudioPlayer.m; path = StreamingKit/StreamingKit/STKAudioPlayer.m; sourceTree = "<group>"; };
 		C95FF8A2EF348F664FA8070ED8A33742 /* BBVoiceRecordToastContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordToastContentView.h; sourceTree = "<group>"; };
-		CAD3B7E14728487AEC031AF14AC13897 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKLocalFileDataSource.h; path = StreamingKit/StreamingKit/STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		CAA9C30BB00658117ADC8BBB6AC3E85F /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
 		CBCE84FF5B18040294BAB93E0BB38F5B /* ic_record_too_short@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@2x.png"; sourceTree = "<group>"; };
 		CD76D58B9EA7B3E2CB559C5DAC5E4FF5 /* XVIEWAvdioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-prefix.pch"; sourceTree = "<group>"; };
-		D23776470A2D434D716F8E0E31A35493 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKDataSourceWrapper.h; path = StreamingKit/StreamingKit/STKDataSourceWrapper.h; sourceTree = "<group>"; };
-		D3ADCB3EB1E41B332A09CD578E8A9DD4 /* Pods_XVIEWAvdioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Example.framework; path = "Pods-XVIEWAvdioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D422AFBF6890B2859E9F8247C37BD007 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		D4279684CE29B488B6EB40DE8F440248 /* STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKAudioPlayer.h; path = StreamingKit/StreamingKit/STKAudioPlayer.h; sourceTree = "<group>"; };
 		D527036D85578804086323898291BC58 /* Pods-XVIEWAvdioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D83ED94C0FBB8BC4E25AFAC5A7185B1F /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKAutoRecoveringHTTPDataSource.m; path = StreamingKit/StreamingKit/STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
-		DA9F7621C17DDABF70B4DEEC303AD9FE /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E29C698E66065B6CD3D5F3060FB52E4B /* STKQueueEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKQueueEntry.m; path = StreamingKit/StreamingKit/STKQueueEntry.m; sourceTree = "<group>"; };
+		D5F3FB7358C760C2B0188C0920BD83B3 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D684B2943D7D488387438A02C9465B15 /* LameTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LameTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB91A83C507F20E81C6B088FB561615D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		DBDC2AC0E2F06334C03195866325456E /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DDE51BAA44F95F8208DB3C3A8C438F30 /* StreamingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StreamingKit.framework; path = StreamingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E367725A38A4A9B981539362405EDCB2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		E3D9977411002DA3B84FA7D66591E705 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E6BC46EB6C10C257C25B55C6669DD2A9 /* ic_release_to_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@3x.png"; sourceTree = "<group>"; };
-		EA53957F44079B7CCFF51043E4AC988D /* LameTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LameTool.m; path = LameTool/LameTool/LameTool.m; sourceTree = "<group>"; };
+		E7641689E1FEE11D483AA0519785566B /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		EAFF76EEC947D7D117241F3E022B7733 /* Pods-XVIEWAvdioManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EB2484BBC63E8FE63816D67F72C5CED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB29EE926C6CCE2D8A87D6987D1D011A /* Pods-XVIEWAvdioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Tests.modulemap"; sourceTree = "<group>"; };
+		EC76457C300FD05ADE58BDA6FADC0316 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED7EED4090D3C29099B071F53A6BAA6D /* Pods-XVIEWAvdioManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ED88E52AA9A028565668614313F2C53E /* StreamingKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StreamingKit.xcconfig; sourceTree = "<group>"; };
+		EDBC851E5FBD0E96F9AD5BB6DA5E5BFC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		F4EFE28260F4A2DA4CF2563654D08C29 /* BBVoiceRecordPowerAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordPowerAnimationView.h; sourceTree = "<group>"; };
+		F5DD7EC3B982A617F4001157BE4A7134 /* STKQueueEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STKQueueEntry.h; path = StreamingKit/StreamingKit/STKQueueEntry.h; sourceTree = "<group>"; };
 		F6CACB0648FE9F60CD8A46E5F93EF6E1 /* BBVoiceRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordView.m; sourceTree = "<group>"; };
+		F7BF83CB772651DCDB26A93406C91C84 /* libmp3lame.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmp3lame.a; path = LameTool/LameTool/libmp3lame.a; sourceTree = "<group>"; };
 		FADA89C604D716EDD04084BCF4555CA6 /* XVIEWAvdioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWAvdioManager-dummy.m"; sourceTree = "<group>"; };
+		FB9ADB2A91E784709A71E30E852E6B96 /* StreamingKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StreamingKit.modulemap; sourceTree = "<group>"; };
 		FBEE453A0D118228C6B522A6DF1CD1A1 /* AudioProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioProcessManager.h; sourceTree = "<group>"; };
-		FEED6BBDD92724D2A3D7D5342AB91228 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STKCoreFoundationDataSource.m; path = StreamingKit/StreamingKit/STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		FBF24EAB80AAEE312A976230857A0057 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+STKAudioPlayer.h"; path = "StreamingKit/StreamingKit/NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		FC20B5EB7BB3553E782BB8AD575D2203 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FEC8305158C5D3E709EC1871EF3A6F5A /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D257052F4E26AC9BAA9996DE8E8713D /* Frameworks */ = {
+		15D3C70FD5FFD3B7E58B4682D2F2F053 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74EABE205910643F45F774667A2E7E58 /* AudioToolbox.framework in Frameworks */,
-				1C60F8606C1A43719865A01F50403F65 /* CFNetwork.framework in Frameworks */,
-				188800886CEEE7CCE5C904CAE9F1B0BE /* CoreFoundation.framework in Frameworks */,
-				B94CA64F695FEDBFB004BA79C105D16B /* Foundation.framework in Frameworks */,
-				AE49A2E6AA59AA9C5920050D15416B41 /* SystemConfiguration.framework in Frameworks */,
+				9073E8EA8ECA25FA394E1BFAA607812E /* Foundation.framework in Frameworks */,
+				42883875BD9876C22BD9CA274879ED9E /* LameTool.framework in Frameworks */,
+				85C53F1EC8DEE7B881DF8099F815142E /* Masonry.framework in Frameworks */,
+				75D27D33932264EDE038D0AD5C11321C /* StreamingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +335,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABD761A8CEB383F4C9C257625C97B5B5 /* Frameworks */ = {
+		8BF52ACF372CD6F4E9FEE5578538DFE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE9FCFACE1F72CB8A68C6AF4A3BECBF /* Foundation.framework in Frameworks */,
+				E956FC832B16A70A29C033EA7B2685FA /* AudioToolbox.framework in Frameworks */,
+				21FCFF5C9DB48AB53EF705F09F514509 /* CFNetwork.framework in Frameworks */,
+				9B0FDF1F734840BC5A0BE85BFF196D36 /* CoreFoundation.framework in Frameworks */,
+				EE3D560A1CAA67B77B33256193B66506 /* Foundation.framework in Frameworks */,
+				7ED58FE38F55C428A7C42445D56EE1A6 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77229DA8590C43F7DA0166FA2F9A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FC5DD212E7101CE1EC9F04BB92C690 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,52 +363,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B88D95EF255BD7F3852C8C6CAFEB85 /* Frameworks */ = {
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260C200F6FA3FC5EF749269C0950587F /* Foundation.framework in Frameworks */,
-				2092436ECA08E57084A46572F50D74FA /* LameTool.framework in Frameworks */,
-				CF1E3DB07F18C8A9FFE02A6114A9A15F /* StreamingKit.framework in Frameworks */,
+				4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */,
+				11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080B0EF351264EED94FACDE44C27119E /* Frameworks */ = {
+		1ED1AAB38310A5F018295B6620BFD88D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EA72D2ECE5FF796E7AB93B4522D9622 /* libmp3lame.a */,
+				D684B2943D7D488387438A02C9465B15 /* LameTool.framework */,
+				90E324869D04C1B15CA1D081351F4766 /* Masonry.framework */,
+				B96747686E61FD6025D97488688466C6 /* StreamingKit.framework */,
+				B4CB0DCED4922F0FC58199BA8984452A /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1C9875A0ADC94FF3F8B84532184F5DCE /* StreamingKit */ = {
-			isa = PBXGroup;
-			children = (
-				72679A1AB41E9705C2C9CAB7699F668F /* NSMutableArray+STKAudioPlayer.h */,
-				8DCBE71745BA24900360AA5DE4A87016 /* NSMutableArray+STKAudioPlayer.m */,
-				D4279684CE29B488B6EB40DE8F440248 /* STKAudioPlayer.h */,
-				C8ADB24F2219CCDDE4FCBFF6D995DE66 /* STKAudioPlayer.m */,
-				B12079A694F251C8F52213BDEA47E408 /* STKAutoRecoveringHTTPDataSource.h */,
-				D83ED94C0FBB8BC4E25AFAC5A7185B1F /* STKAutoRecoveringHTTPDataSource.m */,
-				ABF1C9E6027B7081EE9E86439A904CAA /* STKCoreFoundationDataSource.h */,
-				FEED6BBDD92724D2A3D7D5342AB91228 /* STKCoreFoundationDataSource.m */,
-				9894A1B33D85E9446ECB57A88F5D2538 /* STKDataSource.h */,
-				0AE1C89480E46BEA975D29B7F75F5BA1 /* STKDataSource.m */,
-				D23776470A2D434D716F8E0E31A35493 /* STKDataSourceWrapper.h */,
-				BBD743E5B13EB0895A9DEBCC3A36F74E /* STKDataSourceWrapper.m */,
-				5614CED7A49066732309468EFD51D605 /* STKHTTPDataSource.h */,
-				7B18B77260A7B0D10E4E92BFC764C0AE /* STKHTTPDataSource.m */,
-				CAD3B7E14728487AEC031AF14AC13897 /* STKLocalFileDataSource.h */,
-				09B10CE00D12424624CF9CA1E7EA503D /* STKLocalFileDataSource.m */,
-				7536A59E7A8FFCFB88C5875B3509BA62 /* STKQueueEntry.h */,
-				E29C698E66065B6CD3D5F3060FB52E4B /* STKQueueEntry.m */,
-				BFF08DD47115FA69BD7588B27A7A034E /* Support Files */,
-			);
-			name = StreamingKit;
-			path = StreamingKit;
 			sourceTree = "<group>";
 		};
 		24B4AFC997F14427966CDFB146E68E1B /* BBVoiceRecord */ = {
@@ -346,17 +410,14 @@
 			path = BBVoiceRecord;
 			sourceTree = "<group>";
 		};
-		27650D825C16991FC4425CB3257FFE4E /* LameTool */ = {
+		250AAEA96659A2784DA48AA00BFF7508 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A18228D6D5381F954EF8F04210A9F59 /* lame.h */,
-				9FED16053AC743FE685E63330E570671 /* LameTool.h */,
-				EA53957F44079B7CCFF51043E4AC988D /* LameTool.m */,
-				080B0EF351264EED94FACDE44C27119E /* Frameworks */,
-				CA55EA24B19AB1CADE7889170782AF4D /* Support Files */,
+				42E05B5F988133B0BAF362365A8ACD69 /* LameTool */,
+				35500BCB0C99D93DFD7EE1D1CA52E07E /* Masonry */,
+				65937C60AC47191F76186C24655412F5 /* StreamingKit */,
 			);
-			name = LameTool;
-			path = LameTool;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		351FE88C06D05244492B9297F9E477EE /* Targets Support Files */ = {
@@ -368,26 +429,78 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		37E5EC3B2FC4D0501038CD22410771F7 /* iOS */ = {
+		35500BCB0C99D93DFD7EE1D1CA52E07E /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				0A6CA0523577956E4BBE3C609335404E /* AudioToolbox.framework */,
-				9C729D2E8507C10CAA7C459F13BD81F1 /* CFNetwork.framework */,
-				93AD6AE620276698484131620E79BA83 /* CoreFoundation.framework */,
-				8F83929352386737EA5E6F2E31DEAAC4 /* Foundation.framework */,
-				D422AFBF6890B2859E9F8247C37BD007 /* SystemConfiguration.framework */,
+				9F568CDF1C66EF858BC90CC9FB25E1A1 /* MASCompositeConstraint.h */,
+				DBDC2AC0E2F06334C03195866325456E /* MASCompositeConstraint.m */,
+				AEB5B43EC8282B42E5C47E594616329B /* MASConstraint.h */,
+				E367725A38A4A9B981539362405EDCB2 /* MASConstraint.m */,
+				A589A5EED9CA4B341B049ED85EB1E2B5 /* MASConstraint+Private.h */,
+				7AECEF847BE361C2CD74B91824EE4AC1 /* MASConstraintMaker.h */,
+				60E9F10285A144B34F34366DE5A97428 /* MASConstraintMaker.m */,
+				FC20B5EB7BB3553E782BB8AD575D2203 /* MASLayoutConstraint.h */,
+				83B95BBF39A13385BE0AD8D8C5E7F590 /* MASLayoutConstraint.m */,
+				BF65E09A504044D025C80B0D4942597D /* Masonry.h */,
+				6D4BBEC16D4BA13349073B2506ED7088 /* MASUtilities.h */,
+				FEC8305158C5D3E709EC1871EF3A6F5A /* MASViewAttribute.h */,
+				466182D011544A593D03D67FB3DF1168 /* MASViewAttribute.m */,
+				A4DA15323FD2CAEF40C65F6AACD6C627 /* MASViewConstraint.h */,
+				48A929FDB99437E55296E00E1D556450 /* MASViewConstraint.m */,
+				EDBC851E5FBD0E96F9AD5BB6DA5E5BFC /* NSArray+MASAdditions.h */,
+				480B5FB8E75EED895977F5C9A80D16E1 /* NSArray+MASAdditions.m */,
+				4E286A25DC0B98BCCCDBCC210F8E3540 /* NSArray+MASShorthandAdditions.h */,
+				0CA8828F9B7586C953794C3C70F49D88 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3C368FE7DFE37C7D8AD96B68719A5291 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E7641689E1FEE11D483AA0519785566B /* View+MASAdditions.h */,
+				C653038D7E472778945F4E07977E2F2D /* View+MASAdditions.m */,
+				00F5BA8045C977278B5DA29CBF6D0E02 /* View+MASShorthandAdditions.h */,
+				BE9C75E6DA16572355BFBEAD93F0F81C /* ViewController+MASAdditions.h */,
+				519BD78332EF98DAADBDAA0690064E0A /* ViewController+MASAdditions.m */,
+				EC5FCC652D6061F5453A31131E6311C6 /* Support Files */,
 			);
-			name = iOS;
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		48BAD6A733B9DC6F8F46B85E7FB7702C /* Frameworks */ = {
+		42E05B5F988133B0BAF362365A8ACD69 /* LameTool */ = {
 			isa = PBXGroup;
 			children = (
-				1AAC5D0C21C2F35BA95B0A42593E32F0 /* LameTool.framework */,
-				DA9F7621C17DDABF70B4DEEC303AD9FE /* StreamingKit.framework */,
-				37E5EC3B2FC4D0501038CD22410771F7 /* iOS */,
+				489CE4C43C827EA89C8E4A0F1670957E /* lame.h */,
+				1D767873BE1774BE96C516F6E9F24B6B /* LameTool.h */,
+				9F6A8B06861BD59C9D23BD713D2078AA /* LameTool.m */,
+				D66D2A0A8BD16D3239A5B09A3149494C /* Frameworks */,
+				EBCB3DF6CBD1CBEA2096B645B63C6BEF /* Support Files */,
 			);
-			name = Frameworks;
+			name = LameTool;
+			path = LameTool;
+			sourceTree = "<group>";
+		};
+		65937C60AC47191F76186C24655412F5 /* StreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				FBF24EAB80AAEE312A976230857A0057 /* NSMutableArray+STKAudioPlayer.h */,
+				7D917B09E2C777A78CC46D32664C3911 /* NSMutableArray+STKAudioPlayer.m */,
+				CAA9C30BB00658117ADC8BBB6AC3E85F /* STKAudioPlayer.h */,
+				7E363C816A96A5F8DE04EC60FD948FF7 /* STKAudioPlayer.m */,
+				38599B65380E4D597BB2C2414BC79ACE /* STKAutoRecoveringHTTPDataSource.h */,
+				01BE5048785FE31CF06ADA2468E7549A /* STKAutoRecoveringHTTPDataSource.m */,
+				5473D9D14FC1B0CAE0E188FD0B5FA66C /* STKCoreFoundationDataSource.h */,
+				BB47F5A77BC824A8D189DB42A7AB29B3 /* STKCoreFoundationDataSource.m */,
+				3312D0B28630ADC7A71F7E635B983729 /* STKDataSource.h */,
+				84006E943E38F2D66601D2E52C15A23F /* STKDataSource.m */,
+				7A3AD1E9E1AFBB8FA1EF3FC62BB7EA5A /* STKDataSourceWrapper.h */,
+				69A71B8C047AEF969D7690A5FC704A31 /* STKDataSourceWrapper.m */,
+				49F96B408471FEA72A2399F898513066 /* STKHTTPDataSource.h */,
+				19B0423AE6785F87555C37FEED45CD9C /* STKHTTPDataSource.m */,
+				0611BFEF1000A6AF2475C3CBDF021531 /* STKLocalFileDataSource.h */,
+				06E40BE46ABE647F079FE4A2CCD496D7 /* STKLocalFileDataSource.m */,
+				F5DD7EC3B982A617F4001157BE4A7134 /* STKQueueEntry.h */,
+				541D19AADABE4BD7B233452D9A296993 /* STKQueueEntry.m */,
+				C0DDA0F2C26BE319931172D147B973A9 /* Support Files */,
+			);
+			name = StreamingKit;
+			path = StreamingKit;
 			sourceTree = "<group>";
 		};
 		73B80B5760A936FE28509CB9F15DB802 /* Support Files */ = {
@@ -419,9 +532,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */,
-				48BAD6A733B9DC6F8F46B85E7FB7702C /* Frameworks */,
-				9100755EF42E875B4390457DA9110F53 /* Pods */,
-				CDE374C8F4545A0FCA1939AC900BAB3E /* Products */,
+				1ED1AAB38310A5F018295B6620BFD88D /* Frameworks */,
+				250AAEA96659A2784DA48AA00BFF7508 /* Pods */,
+				E6DE19B510FE5543421529DE5F45263F /* Products */,
 				351FE88C06D05244492B9297F9E477EE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -441,13 +554,17 @@
 			path = AudioProcess;
 			sourceTree = "<group>";
 		};
-		9100755EF42E875B4390457DA9110F53 /* Pods */ = {
+		B4CB0DCED4922F0FC58199BA8984452A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				27650D825C16991FC4425CB3257FFE4E /* LameTool */,
-				1C9875A0ADC94FF3F8B84532184F5DCE /* StreamingKit */,
+				600CB77D6640A806AE8DF975A4615D31 /* AudioToolbox.framework */,
+				DB91A83C507F20E81C6B088FB561615D /* CFNetwork.framework */,
+				84D5C4A121626F69E996992C0B6677E7 /* CoreFoundation.framework */,
+				5DEF8CED8C0BD69B6236693624366FEE /* Foundation.framework */,
+				8964F9DB83E86080C5C4809C0E14DB64 /* SystemConfiguration.framework */,
+				EC76457C300FD05ADE58BDA6FADC0316 /* UIKit.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */ = {
@@ -476,15 +593,15 @@
 			path = "Target Support Files/Pods-XVIEWAvdioManager_Example";
 			sourceTree = "<group>";
 		};
-		BFF08DD47115FA69BD7588B27A7A034E /* Support Files */ = {
+		C0DDA0F2C26BE319931172D147B973A9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D2A6F8BD4198C8373CC5BD801560995 /* Info.plist */,
-				200AC70F7F571F975FC7C317CF6678DC /* StreamingKit.modulemap */,
-				ED88E52AA9A028565668614313F2C53E /* StreamingKit.xcconfig */,
-				9A7F8D907D78DF7AC2BC0E766635F5FA /* StreamingKit-dummy.m */,
-				BA56C9DE1127CE37DEF0FBE1D9B5CDFA /* StreamingKit-prefix.pch */,
-				515036CD0741C6E518AD6E11DD5A5CE0 /* StreamingKit-umbrella.h */,
+				29E4FDF67CB61E35131559D515693C6B /* Info.plist */,
+				FB9ADB2A91E784709A71E30E852E6B96 /* StreamingKit.modulemap */,
+				2A1D1008D3F516D41BA85DB53DEC615B /* StreamingKit.xcconfig */,
+				3FD6D3A0647E240AF210918CF0DD2F25 /* StreamingKit-dummy.m */,
+				7849A33DE2BC61CA5B50DEA9F40A5D07 /* StreamingKit-prefix.pch */,
+				34E7B001B9DE432D84B084B6B829EDC8 /* StreamingKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/StreamingKit";
@@ -500,28 +617,23 @@
 			path = XVIEWAvdioManager/Classes/XVIEWAvdioManager;
 			sourceTree = "<group>";
 		};
-		CA55EA24B19AB1CADE7889170782AF4D /* Support Files */ = {
+		D66D2A0A8BD16D3239A5B09A3149494C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7B92FBAD6E2CA9E6049CFC4ED70147A /* Info.plist */,
-				BB20A6DCDBD31EB873667DB23DC98DD3 /* LameTool.modulemap */,
-				ABBAB87B8FB79413B63646F1B1464C42 /* LameTool.xcconfig */,
-				B4F9D488BDA0A6A6968B1132A7175FA6 /* LameTool-dummy.m */,
-				08C3E3EB8BF59CED5E4AE894238906DA /* LameTool-prefix.pch */,
-				97A22D819C78F1ECE494BDBFA3655FCF /* LameTool-umbrella.h */,
+				F7BF83CB772651DCDB26A93406C91C84 /* libmp3lame.a */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LameTool";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CDE374C8F4545A0FCA1939AC900BAB3E /* Products */ = {
+		E6DE19B510FE5543421529DE5F45263F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4BFAE5CF6D0CBA268F6025BAF5702360 /* LameTool.framework */,
-				D3ADCB3EB1E41B332A09CD578E8A9DD4 /* Pods_XVIEWAvdioManager_Example.framework */,
-				193CBA829DCCB766E4671BF9B45A6AC3 /* Pods_XVIEWAvdioManager_Tests.framework */,
-				2823C00A7EDE51C2A70786BFE0F3DC57 /* StreamingKit.framework */,
-				0498997FB018274AE18160548DE3734B /* XVIEWAvdioManager.framework */,
+				B534A8271194AE7BEED1F3220CF93C6A /* LameTool.framework */,
+				D5F3FB7358C760C2B0188C0920BD83B3 /* Masonry.framework */,
+				04D4520327D93D50643DEFC101C26838 /* Pods_XVIEWAvdioManager_Example.framework */,
+				1D1BF413D30A6B2CCDBDCD61F9363096 /* Pods_XVIEWAvdioManager_Tests.framework */,
+				DDE51BAA44F95F8208DB3C3A8C438F30 /* StreamingKit.framework */,
+				0EFA8E808C60F117A43635F3647E0C97 /* XVIEWAvdioManager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -542,6 +654,34 @@
 			);
 			name = "Pods-XVIEWAvdioManager_Tests";
 			path = "Target Support Files/Pods-XVIEWAvdioManager_Tests";
+			sourceTree = "<group>";
+		};
+		EBCB3DF6CBD1CBEA2096B645B63C6BEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E3FA8C122F2773F27F2B8633BBDBF9B /* Info.plist */,
+				765AA61BCDACEE8980F9CE931ADBCB6C /* LameTool.modulemap */,
+				89020BCD2447BD862A3A23ED1B760F21 /* LameTool.xcconfig */,
+				34508C2BA11FD53CD84CCE4387775B76 /* LameTool-dummy.m */,
+				BE87B859A78CCD4E04CE7349A6D18B7F /* LameTool-prefix.pch */,
+				4A817B70486A40E372DDD46B06BA9C90 /* LameTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LameTool";
+			sourceTree = "<group>";
+		};
+		EC5FCC652D6061F5453A31131E6311C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF04D4DDD5ECEF1CDCA923A6D103A05D /* Info.plist */,
+				33A10C6FC1A169D57CEE73259E032A01 /* Masonry.modulemap */,
+				BF26F7E60A00FA3437B1B3D9005E85A9 /* Masonry.xcconfig */,
+				A03E583D5DD6AD960C9E0EC8A6B2ECBB /* Masonry-dummy.m */,
+				B6430E2A255EBE032327378AFB341338 /* Masonry-prefix.pch */,
+				C392F909CE5C755A88F522FCDA5F8576 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		F1E80BC34E1F60C7A1F5E22B22D72931 /* resources */ = {
@@ -575,23 +715,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11977B09A64DFAC6256104A36C991BFB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BA20E7DE75BC18110CCF6DE2890B2F0 /* NSMutableArray+STKAudioPlayer.h in Headers */,
-				26703F4B9985D52F33DC1D85C877E054 /* STKAudioPlayer.h in Headers */,
-				E1D23C972A7B7F288455F66FC51F9A35 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
-				8067AC38EC7D376229BC17226F766E49 /* STKCoreFoundationDataSource.h in Headers */,
-				921951CB5A68D4162F0B77007FBDDDF6 /* STKDataSource.h in Headers */,
-				4A014D2DAFBBD2B56CF7D1C4414A2092 /* STKDataSourceWrapper.h in Headers */,
-				7D477027A5B99078A65A5569AE0C5C97 /* STKHTTPDataSource.h in Headers */,
-				862759B9A5B730190500AD79478E7556 /* STKLocalFileDataSource.h in Headers */,
-				7F1EC4A7BCA5FA91AF2D12F039C555EC /* STKQueueEntry.h in Headers */,
-				1D367881B6D08C92975ECE68AA1306E3 /* StreamingKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28E46BCCF9BA7CE57BAFD213D5CB1ED5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -610,36 +733,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		975EB55E2C7EE26D49F8DC8E0882A9DC /* Headers */ = {
+		96BB42641F2EA84C5955F4718C4F20DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D570D892DEF2F00F610FFB9B43B6F09 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */,
+				4680C9F1199D629250AF5E8486AC08A7 /* NSMutableArray+STKAudioPlayer.h in Headers */,
+				E3074ABE221B4293C959E83CFEA8BEB9 /* STKAudioPlayer.h in Headers */,
+				E137A14B00FC4FC2374BFB3BB9CC5531 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
+				14C13B556BB1359D28851FC9AC912D7D /* STKCoreFoundationDataSource.h in Headers */,
+				9319ED8DA67E935D63EB8A56DF156F47 /* STKDataSource.h in Headers */,
+				390DB7B07D9A7DCCA7ED75A7B529F9C5 /* STKDataSourceWrapper.h in Headers */,
+				5722C261F47AE0BDF884BF54B6C79B50 /* STKHTTPDataSource.h in Headers */,
+				EB51046C39AC7D7D1EAA88FC51F52C9E /* STKLocalFileDataSource.h in Headers */,
+				09A754FB5A779253138579B0C06560F8 /* STKQueueEntry.h in Headers */,
+				83531A114202DE633B0588ED99468A5E /* StreamingKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F7E8652F9D5ACF1598E191CBB80D004 /* Headers */ = {
+		AD32DCD9CDA751203BEAAF282EA38FF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73E7D9EE4D9BFAE75359D2641463160 /* AudioPlayerManager.h in Headers */,
-				CBA597C0605409A6D8D42D58A4726A40 /* AudioProcessManager.h in Headers */,
-				0197271DC6D0B9E425BEE13AFDC78273 /* AudioRecordView.h in Headers */,
-				122771D2218771EF2F1F77B5AC3069D9 /* BBHoldToSpeakButton.h in Headers */,
-				5D3C11407150B18CE5A0B208A105EB37 /* BBVoiceRecordController.h in Headers */,
-				EAB9D9C5C6E53D761B2B5434CBFD4886 /* BBVoiceRecordHeaderDefine.h in Headers */,
-				8412010539B2AC1AE6DE6105E9C28B25 /* BBVoiceRecordPowerAnimationView.h in Headers */,
-				5FB656F3FED005AA38416DBB0A96978B /* BBVoiceRecordToastContentView.h in Headers */,
-				4D102FDF82ABC33C628F57AA3C8DDB87 /* BBVoiceRecordView.h in Headers */,
-				F5603D356E7E72A352BA291F5D17A8FB /* UIColor+BBVoiceRecord.h in Headers */,
-				8C32BF53E985C63BDD97C0B7FAA3D4EE /* UIImage+BBVoiceRecord.h in Headers */,
-				168DAD7508626C31307AD2753C6A6612 /* XVIEWAvdioManager-umbrella.h in Headers */,
+				CEEFFD962F735814E223C70569627C9F /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71A7F5D7878E1F7D4D533A608D0DED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8899FDD3F997DFDB62FA8615F17C12C /* AudioPlayerManager.h in Headers */,
+				9B27497447C9F8CE28E2A3CAA1F9D59A /* AudioProcessManager.h in Headers */,
+				F6E506EE0E45B633D481D3FFD8F9B497 /* AudioRecordView.h in Headers */,
+				635350E3D2AFD48B732B94BB67EBF717 /* BBHoldToSpeakButton.h in Headers */,
+				0DD3FCC084DE67BD548F7C0E7CF64890 /* BBVoiceRecordController.h in Headers */,
+				FE7ACB111886EC0FCD7692A2A029FF0F /* BBVoiceRecordHeaderDefine.h in Headers */,
+				A15351143B946107415E6D000E331172 /* BBVoiceRecordPowerAnimationView.h in Headers */,
+				76CA6D209844229345C256DAA0D64C70 /* BBVoiceRecordToastContentView.h in Headers */,
+				DCE0899920FE6B092EFC6CF84D5AA414 /* BBVoiceRecordView.h in Headers */,
+				F386A923CF5B1387D5CFEE5E1CB7C367 /* UIColor+BBVoiceRecord.h in Headers */,
+				C00D5018BCB8ED2CD2AB63832F79EA69 /* UIImage+BBVoiceRecord.h in Headers */,
+				4278B081C52DC8B685F44270941C6007 /* XVIEWAvdioManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		04B7C0CEAAEC27C20BAAB62554C983BA /* Pods-XVIEWAvdioManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06BEC2137746E57D1DA80CED9710045 /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */;
+			buildPhases = (
+				A9C0EC376C685563D2B18A2AD4695520 /* Sources */,
+				C77229DA8590C43F7DA0166FA2F9A3A7 /* Frameworks */,
+				AD32DCD9CDA751203BEAAF282EA38FF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D8D6020D5EF939F7D7C7B217E7973F /* PBXTargetDependency */,
+				DDA6A58EDEEB38EE980D5E3A5DA64E82 /* PBXTargetDependency */,
+				1ED666EB1E6AFC22A0229982A3A23928 /* PBXTargetDependency */,
+				CAC63DF8D9B1596E0DF472731A677CAB /* PBXTargetDependency */,
+			);
+			name = "Pods-XVIEWAvdioManager_Example";
+			productName = "Pods-XVIEWAvdioManager_Example";
+			productReference = 04D4520327D93D50643DEFC101C26838 /* Pods_XVIEWAvdioManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2C48D09045AE051F1B6C0A716EC8263A /* Pods-XVIEWAvdioManager_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20E35E5E912C7AD09360855BB0844FBC /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Tests" */;
@@ -655,24 +839,7 @@
 			);
 			name = "Pods-XVIEWAvdioManager_Tests";
 			productName = "Pods-XVIEWAvdioManager_Tests";
-			productReference = 193CBA829DCCB766E4671BF9B45A6AC3 /* Pods_XVIEWAvdioManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5106338AAAE417B6ED9B377ADF233D3F /* StreamingKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B4EE282CFE943037D8B37E009CF9864E /* Build configuration list for PBXNativeTarget "StreamingKit" */;
-			buildPhases = (
-				840EBB74C7DB1ACB12CB603A277DA27D /* Sources */,
-				3D257052F4E26AC9BAA9996DE8E8713D /* Frameworks */,
-				11977B09A64DFAC6256104A36C991BFB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StreamingKit;
-			productName = StreamingKit;
-			productReference = 2823C00A7EDE51C2A70786BFE0F3DC57 /* StreamingKit.framework */;
+			productReference = 1D1BF413D30A6B2CCDBDCD61F9363096 /* Pods_XVIEWAvdioManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		61467BA2A20C27EB50517B63FC289A66 /* LameTool */ = {
@@ -689,46 +856,61 @@
 			);
 			name = LameTool;
 			productName = LameTool;
-			productReference = 4BFAE5CF6D0CBA268F6025BAF5702360 /* LameTool.framework */;
+			productReference = B534A8271194AE7BEED1F3220CF93C6A /* LameTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A16DE826A47E6854EB83AE2811367BEF /* Pods-XVIEWAvdioManager_Example */ = {
+		C402299635A546AB90D1492F32E3CA28 /* XVIEWAvdioManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB65E96268B9820F504F782CDA11D078 /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */;
+			buildConfigurationList = C5AD8D0D9A716A0E8A62956B75A08378 /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */;
 			buildPhases = (
-				DC1C65D2FF05E45211B84BEB540AAAAD /* Sources */,
-				ABD761A8CEB383F4C9C257625C97B5B5 /* Frameworks */,
-				975EB55E2C7EE26D49F8DC8E0882A9DC /* Headers */,
+				3C6745DF0AB9BDF228C509C1DCE34065 /* Sources */,
+				15D3C70FD5FFD3B7E58B4682D2F2F053 /* Frameworks */,
+				B71A7F5D7878E1F7D4D533A608D0DED3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7B0587BC7F6C265B5C82BA022953DF0E /* PBXTargetDependency */,
-				EF3E871506537A1506AEB817D29982E7 /* PBXTargetDependency */,
-				201BC7BEEB544BC4FCB0904FE5982A39 /* PBXTargetDependency */,
-			);
-			name = "Pods-XVIEWAvdioManager_Example";
-			productName = "Pods-XVIEWAvdioManager_Example";
-			productReference = D3ADCB3EB1E41B332A09CD578E8A9DD4 /* Pods_XVIEWAvdioManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A419FCBCCFD4D3C5B84D2075F180986B /* XVIEWAvdioManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96358C93C9FE2BAD4951917D653AA71C /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */;
-			buildPhases = (
-				C04162BA481F414A3F6360ED578231C9 /* Sources */,
-				F9B88D95EF255BD7F3852C8C6CAFEB85 /* Frameworks */,
-				9F7E8652F9D5ACF1598E191CBB80D004 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B1DCDB1BCF399ED9731A347304CF051 /* PBXTargetDependency */,
-				1389F1139896182E8570A31B1AB67D7A /* PBXTargetDependency */,
+				470292BA085F23DD350352283FC7A81D /* PBXTargetDependency */,
+				254608AB688146655173C2D7F179DF59 /* PBXTargetDependency */,
+				502078A3CB86EAF90617F18E91EBC072 /* PBXTargetDependency */,
 			);
 			name = XVIEWAvdioManager;
 			productName = XVIEWAvdioManager;
-			productReference = 0498997FB018274AE18160548DE3734B /* XVIEWAvdioManager.framework */;
+			productReference = 0EFA8E808C60F117A43635F3647E0C97 /* XVIEWAvdioManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = D5F3FB7358C760C2B0188C0920BD83B3 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E51E31B8BA5F5FBCCBD69C10EF674538 /* StreamingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ADFD2F2A22DE68865DA0E91AAA75898 /* Build configuration list for PBXNativeTarget "StreamingKit" */;
+			buildPhases = (
+				B5FECF5F452568FAC5AE7CAE86F92DAD /* Sources */,
+				8BF52ACF372CD6F4E9FEE5578538DFE8 /* Frameworks */,
+				96BB42641F2EA84C5955F4718C4F20DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamingKit;
+			productName = StreamingKit;
+			productReference = DDE51BAA44F95F8208DB3C3A8C438F30 /* StreamingKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -748,34 +930,64 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CDE374C8F4545A0FCA1939AC900BAB3E /* Products */;
+			productRefGroup = E6DE19B510FE5543421529DE5F45263F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				61467BA2A20C27EB50517B63FC289A66 /* LameTool */,
-				A16DE826A47E6854EB83AE2811367BEF /* Pods-XVIEWAvdioManager_Example */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				04B7C0CEAAEC27C20BAAB62554C983BA /* Pods-XVIEWAvdioManager_Example */,
 				2C48D09045AE051F1B6C0A716EC8263A /* Pods-XVIEWAvdioManager_Tests */,
-				5106338AAAE417B6ED9B377ADF233D3F /* StreamingKit */,
-				A419FCBCCFD4D3C5B84D2075F180986B /* XVIEWAvdioManager */,
+				E51E31B8BA5F5FBCCBD69C10EF674538 /* StreamingKit */,
+				C402299635A546AB90D1492F32E3CA28 /* XVIEWAvdioManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		840EBB74C7DB1ACB12CB603A277DA27D /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832619C5DFA09DB17D0A1A46A0874F3A /* NSMutableArray+STKAudioPlayer.m in Sources */,
-				5671A37733FA70E59C214D4B2D5E8E58 /* STKAudioPlayer.m in Sources */,
-				3537DD76FE48A5BFD00B636D43EA8802 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
-				303B22BBACC9BE89B77D7EF5EFD23F3A /* STKCoreFoundationDataSource.m in Sources */,
-				D0A8C4203761505DB8DCA80ED6FBE770 /* STKDataSource.m in Sources */,
-				DF1C070F68739675AAD5C71CFCCC0448 /* STKDataSourceWrapper.m in Sources */,
-				2BBFE164BE76ED023905E19367664E19 /* STKHTTPDataSource.m in Sources */,
-				90E4BFFB072D3DD145D5C75FD50F5623 /* STKLocalFileDataSource.m in Sources */,
-				69341D0A8EA6A7228457757E3C23DC65 /* STKQueueEntry.m in Sources */,
-				F74D3D8028BF725F1154076705361481 /* StreamingKit-dummy.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6745DF0AB9BDF228C509C1DCE34065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483D7E33F0DD00AD192A80F22231AB14 /* AudioPlayerManager.m in Sources */,
+				C0F30CC67E109E84F9A759802AD5834B /* AudioProcessManager.m in Sources */,
+				7F19DAB4478B6554D5BEF0904E40736F /* AudioRecordView.m in Sources */,
+				B8610D995ADFDC28E09BF866BBB9E0F2 /* BBHoldToSpeakButton.m in Sources */,
+				A941224F9DB4A72B8864961CA83610A8 /* BBVoiceRecordController.m in Sources */,
+				80407E90FCD751EA197E3C9A39944478 /* BBVoiceRecordPowerAnimationView.m in Sources */,
+				A154B0A5BAD96A14140BC18F7E1DFE51 /* BBVoiceRecordToastContentView.m in Sources */,
+				4BBD9EFDBF51188DD5BB6D0EB6FB44E7 /* BBVoiceRecordView.m in Sources */,
+				DBD09412253DF00750B0547FDC6901B1 /* ic_record@2x.png in Sources */,
+				61601B40DE1A648B98D678552C8C9522 /* ic_record@3x.png in Sources */,
+				F3D51D74BAD1004AA1A676418D8475C0 /* ic_record_ripple@2x.png in Sources */,
+				F8B3840A435C04AC03BCF43B65DBFA68 /* ic_record_ripple@3x.png in Sources */,
+				91F026C4C7CF4E747B7B190F6A8CB363 /* ic_record_too_short@2x.png in Sources */,
+				A96DB04B9803BECB2D11B96E0E9AE690 /* ic_record_too_short@3x.png in Sources */,
+				8D8F3124887BA47EBF31470B2BE5210A /* ic_release_to_cancel@2x.png in Sources */,
+				F82249F10C8F8D0AD649BED7DD0145B4 /* ic_release_to_cancel@3x.png in Sources */,
+				7CA454E5A7EEDCD6A0C5728E5F4F3654 /* libAvdioManager.a in Sources */,
+				DDB99B75A9C6C93BFB6C3AE6053D2DB4 /* ReplaceMe.m in Sources */,
+				510BC9A91A073997F1362EC4F0F33CCC /* UIColor+BBVoiceRecord.m in Sources */,
+				22C66061E84DF78DD900394FE8DC04D2 /* UIImage+BBVoiceRecord.m in Sources */,
+				D5A8490FE512BE89B4187DA76D3ADB9F /* XVIEWAvdioManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,31 +999,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C04162BA481F414A3F6360ED578231C9 /* Sources */ = {
+		A9C0EC376C685563D2B18A2AD4695520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39BB2489ABEE210AB81F16012BED3DB /* AudioPlayerManager.m in Sources */,
-				6DD5A0E698E1A59F8609B854CEE8BC46 /* AudioProcessManager.m in Sources */,
-				1BE27ED202B48D4B87821A5B1C3AD66B /* AudioRecordView.m in Sources */,
-				4D5AD5B165929655DCB8ECFE190F4AAE /* BBHoldToSpeakButton.m in Sources */,
-				79C2B296B9DFA62AE8F1B37564373DA5 /* BBVoiceRecordController.m in Sources */,
-				C634D34B5E390D3AA35FDFED6616D9F9 /* BBVoiceRecordPowerAnimationView.m in Sources */,
-				F7303DBC70BF4E80413A352FB39ABD82 /* BBVoiceRecordToastContentView.m in Sources */,
-				8E8949F8CB8A09D1C3A461BB62CC0147 /* BBVoiceRecordView.m in Sources */,
-				0D14951B6CA72A5F4CDE7BC5F3C36072 /* ic_record@2x.png in Sources */,
-				2BFC6DE4E25B95004045AAFFECBE8907 /* ic_record@3x.png in Sources */,
-				18B99F040E01BD14F119E52D1EA87EF5 /* ic_record_ripple@2x.png in Sources */,
-				50C2D82F7D4CACE510109B826E704D07 /* ic_record_ripple@3x.png in Sources */,
-				097C0711156D7D6B78B566C51918F591 /* ic_record_too_short@2x.png in Sources */,
-				AF0596FC7C7ECB3BC910CC66FA66BD9D /* ic_record_too_short@3x.png in Sources */,
-				C5DC805480A106E2886FDEFD3532BB99 /* ic_release_to_cancel@2x.png in Sources */,
-				6B6E1CD4D8016B4D4AAD52D9790F1361 /* ic_release_to_cancel@3x.png in Sources */,
-				155D7C2CB4E3727D4AE1550E127FD567 /* libAvdioManager.a in Sources */,
-				C9BB5ED9101B08A5F71B9B2C85A85290 /* ReplaceMe.m in Sources */,
-				59BAF69EE322D5483E935B680E251534 /* UIColor+BBVoiceRecord.m in Sources */,
-				FF12679D63F0CB33A954EEF5E8C9A603 /* UIImage+BBVoiceRecord.m in Sources */,
-				AA6561DB518006F48285E2B2544B089C /* XVIEWAvdioManager-dummy.m in Sources */,
+				8D6C8FBFD65EA0496201DFDAEF09AACD /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FECF5F452568FAC5AE7CAE86F92DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9920504DDC25463752113B18B8785A13 /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				67B625139B6B5C47B011AD61B6218BD1 /* STKAudioPlayer.m in Sources */,
+				F49D928349791A842323A99414287DB9 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				3C420E651A2B2E5135CBC180802F6230 /* STKCoreFoundationDataSource.m in Sources */,
+				7EDA426A61F3C484E9C9BEB8741A6BA2 /* STKDataSource.m in Sources */,
+				51C18338161904AA1F4CE8B528E98562 /* STKDataSourceWrapper.m in Sources */,
+				3D8ACE583DB417FD8CAD2EEAF964C203 /* STKHTTPDataSource.m in Sources */,
+				27CD4131EA7C161A8D39E299A9838AA5 /* STKLocalFileDataSource.m in Sources */,
+				25C0164737DC773556FBFF435FC5224C /* STKQueueEntry.m in Sources */,
+				EB1F9EB3672EFA3114671F69AAE65877 /* StreamingKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,51 +1033,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC1C65D2FF05E45211B84BEB540AAAAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20EE564AEE2CA1D4D6AE04CF4A93FC7E /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B1DCDB1BCF399ED9731A347304CF051 /* PBXTargetDependency */ = {
+		1ED666EB1E6AFC22A0229982A3A23928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StreamingKit;
+			target = E51E31B8BA5F5FBCCBD69C10EF674538 /* StreamingKit */;
+			targetProxy = 96080574A5A32122A98BD1BBA1742651 /* PBXContainerItemProxy */;
+		};
+		254608AB688146655173C2D7F179DF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = D9A994B42178EF7F24CF88174BFDA69A /* PBXContainerItemProxy */;
+		};
+		470292BA085F23DD350352283FC7A81D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LameTool;
 			target = 61467BA2A20C27EB50517B63FC289A66 /* LameTool */;
-			targetProxy = 8E9CC2A5703DCAD4A29DEF810AF9F0A0 /* PBXContainerItemProxy */;
+			targetProxy = DCFCD1D52053EAF5089772CF9626A341 /* PBXContainerItemProxy */;
 		};
-		1389F1139896182E8570A31B1AB67D7A /* PBXTargetDependency */ = {
+		502078A3CB86EAF90617F18E91EBC072 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StreamingKit;
-			target = 5106338AAAE417B6ED9B377ADF233D3F /* StreamingKit */;
-			targetProxy = CDEEEC6F13804981CB8A854BB59B7F0E /* PBXContainerItemProxy */;
+			target = E51E31B8BA5F5FBCCBD69C10EF674538 /* StreamingKit */;
+			targetProxy = 1C0EEBB4487965B68A7369D25C174626 /* PBXContainerItemProxy */;
 		};
-		201BC7BEEB544BC4FCB0904FE5982A39 /* PBXTargetDependency */ = {
+		A8D8D6020D5EF939F7D7C7B217E7973F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LameTool;
+			target = 61467BA2A20C27EB50517B63FC289A66 /* LameTool */;
+			targetProxy = E08C0E13C3F2347B89D7CAD91CD9A75B /* PBXContainerItemProxy */;
+		};
+		CAC63DF8D9B1596E0DF472731A677CAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XVIEWAvdioManager;
-			target = A419FCBCCFD4D3C5B84D2075F180986B /* XVIEWAvdioManager */;
-			targetProxy = 56FD1C545670FB2CF9E635442FBBF08A /* PBXContainerItemProxy */;
+			target = C402299635A546AB90D1492F32E3CA28 /* XVIEWAvdioManager */;
+			targetProxy = 27AA272868E5792860FF8DA86C9E775A /* PBXContainerItemProxy */;
 		};
-		7B0587BC7F6C265B5C82BA022953DF0E /* PBXTargetDependency */ = {
+		DDA6A58EDEEB38EE980D5E3A5DA64E82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LameTool;
-			target = 61467BA2A20C27EB50517B63FC289A66 /* LameTool */;
-			targetProxy = 763D9D15ECA07823CC3DB01A2217904D /* PBXContainerItemProxy */;
-		};
-		EF3E871506537A1506AEB817D29982E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StreamingKit;
-			target = 5106338AAAE417B6ED9B377ADF233D3F /* StreamingKit */;
-			targetProxy = 4D32B442434E558FF7DAE5DFF244A463 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = CEE0A4F87D7EBA1B6C6D31CF3A42444B /* PBXContainerItemProxy */;
 		};
 		F5CFDCBFD44D1633719AE492A6CCA4F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XVIEWAvdioManager_Example";
-			target = A16DE826A47E6854EB83AE2811367BEF /* Pods-XVIEWAvdioManager_Example */;
+			target = 04B7C0CEAAEC27C20BAAB62554C983BA /* Pods-XVIEWAvdioManager_Example */;
 			targetProxy = D44E1F5652426191735951F92D1C0111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -908,9 +1121,9 @@
 			};
 			name = Release;
 		};
-		09731476DA62475664721F7F1C928E60 /* Release */ = {
+		0F3FD19A68434FDAFE5D4071427276B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */;
+			baseConfigurationReference = 55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -936,15 +1149,74 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		322EAD30002F2D4B5EBB27AF7E951007 /* Debug */ = {
+		3845069A573E47CF21533487C497A730 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED88E52AA9A028565668614313F2C53E /* StreamingKit.xcconfig */;
+			baseConfigurationReference = BF26F7E60A00FA3437B1B3D9005E85A9 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F2F19B4E915F914624F7B58B9531AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XVIEWAvdioManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager.modulemap";
+				PRODUCT_MODULE_NAME = XVIEWAvdioManager;
+				PRODUCT_NAME = XVIEWAvdioManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DDDEC4DEC2539917EB8438586D7A25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1D1008D3F516D41BA85DB53DEC615B /* StreamingKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -967,10 +1239,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6079DC4980F45629025DD8BC8D1D9680 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1004,37 +1277,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6ED335F4A5F104AA75AE2D78BFA6CB89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED88E52AA9A028565668614313F2C53E /* StreamingKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
-				PRODUCT_MODULE_NAME = StreamingKit;
-				PRODUCT_NAME = StreamingKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1101,7 +1343,7 @@
 		};
 		A3614282C8A1D2A7727D96BF2781EA29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBAB87B8FB79413B63646F1B1464C42 /* LameTool.xcconfig */;
+			baseConfigurationReference = 89020BCD2447BD862A3A23ED1B760F21 /* LameTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1120,6 +1362,36 @@
 				MODULEMAP_FILE = "Target Support Files/LameTool/LameTool.modulemap";
 				PRODUCT_MODULE_NAME = LameTool;
 				PRODUCT_NAME = LameTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3C4D52920A0BD02FE612E509469660A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1D1008D3F516D41BA85DB53DEC615B /* StreamingKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StreamingKit/StreamingKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StreamingKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StreamingKit/StreamingKit.modulemap";
+				PRODUCT_MODULE_NAME = StreamingKit;
+				PRODUCT_NAME = StreamingKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1187,72 +1459,9 @@
 			};
 			name = Release;
 		};
-		D4001977B5766F57538A2684173E3677 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DAE1611492E4C8203C3FE34E189AA0A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XVIEWAvdioManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager.modulemap";
-				PRODUCT_MODULE_NAME = XVIEWAvdioManager;
-				PRODUCT_NAME = XVIEWAvdioManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DF122CAEF3F90003156048107255909A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABBAB87B8FB79413B63646F1B1464C42 /* LameTool.xcconfig */;
+			baseConfigurationReference = 89020BCD2447BD862A3A23ED1B760F21 /* LameTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1281,7 +1490,41 @@
 			};
 			name = Release;
 		};
-		EA5EA90B0048EBB0EE596E191649C3E9 /* Release */ = {
+		EE68B008C04FA32BE7284E56F9627FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1C14D1A0979C8D1B9C4B796C46F6CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B1F645586DB4023869441E4864D95A5 /* XVIEWAvdioManager.xcconfig */;
 			buildSettings = {
@@ -1312,9 +1555,49 @@
 			};
 			name = Release;
 		};
+		FE3EC76958EB417BB5A9577967FD1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF26F7E60A00FA3437B1B3D9005E85A9 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845069A573E47CF21533487C497A730 /* Debug */,
+				FE3EC76958EB417BB5A9577967FD1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		20E35E5E912C7AD09360855BB0844FBC /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1333,29 +1616,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96358C93C9FE2BAD4951917D653AA71C /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */ = {
+		5ADFD2F2A22DE68865DA0E91AAA75898 /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAE1611492E4C8203C3FE34E189AA0A6 /* Debug */,
-				EA5EA90B0048EBB0EE596E191649C3E9 /* Release */,
+				B3C4D52920A0BD02FE612E509469660A /* Debug */,
+				5DDDEC4DEC2539917EB8438586D7A25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4EE282CFE943037D8B37E009CF9864E /* Build configuration list for PBXNativeTarget "StreamingKit" */ = {
+		C5AD8D0D9A716A0E8A62956B75A08378 /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				322EAD30002F2D4B5EBB27AF7E951007 /* Debug */,
-				6ED335F4A5F104AA75AE2D78BFA6CB89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CB65E96268B9820F504F782CDA11D078 /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D4001977B5766F57538A2684173E3677 /* Debug */,
-				09731476DA62475664721F7F1C928E60 /* Release */,
+				3F2F19B4E915F914624F7B58B9531AF2 /* Debug */,
+				F1C14D1A0979C8D1B9C4B796C46F6CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1365,6 +1639,15 @@
 			buildConfigurations = (
 				A3614282C8A1D2A7727D96BF2781EA29 /* Debug */,
 				DF122CAEF3F90003156048107255909A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06BEC2137746E57D1DA80CED9710045 /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3FD19A68434FDAFE5D4071427276B3 /* Debug */,
+				EE68B008C04FA32BE7284E56F9627FD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

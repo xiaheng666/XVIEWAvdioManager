@@ -144,11 +144,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LameTool/LameTool.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/LameTool/LameTool.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.framework"
 fi
