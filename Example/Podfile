@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWAvdioManager_Example' do
+  pod 'XVIEWAvdioManager', :path => '../'
+
+  target 'XVIEWAvdioManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
