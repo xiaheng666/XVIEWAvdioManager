@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWAvdioManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWAvdioManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWAvdioManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWAvdioManager: 72b01a6bfaa4da4bacaf0e782b51f40b772ad76f
+
+PODFILE CHECKSUM: 03257b370150a6c196541712596d9898cadc6152
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19FA2DEF122FC51FF1EE8509AF46D52A /* BBVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDCE99A5A39DFB80281EBAC30F8EAD /* BBVoiceRecordPowerAnimationView.m */; };
+		1A4AC4D5E2AF4C618F6307FB3149460D /* XVIEWAvdioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 229BA99294E2040A3D6C0D10478C26A3 /* XVIEWAvdioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE1EA81D0AF4CAC2746B2BAE57B3BF7 /* ic_record_ripple@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D6C51CC6304EDB39E74C0AF25D78210B /* ic_record_ripple@2x.png */; };
+		246B3D4C2BC116E082391E1B08743FB7 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		252D58115E968E321BC5524A41F55EBD /* UIColor+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1D0A4A8F8B087E26D9D02536DF202D /* UIColor+BBVoiceRecord.m */; };
+		3100D41AA80CA373E265C0985EAE1DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3157472ECA5CCFC017E319E98B15E86F /* BBVoiceRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 404C3657D5020C1F3FC3DA56E84F0438 /* BBVoiceRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33112813DA194CCB928F073FF272105D /* AudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D6DC693BE4F54E9ABC70D2FE7DA35F /* AudioPlayerManager.m */; };
+		3D44558480C8785F5C023688F1EDAAF1 /* ic_record_too_short@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9C6BC9131B2006DD3C0533BD3CDCFE09 /* ic_record_too_short@3x.png */; };
+		43CCD4257423081CB5C08F5BA59B0931 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 988497842814F68F884C0FF99AE891E1 /* ReplaceMe.m */; };
+		49E7C10065CED84D4145AC3937EC537E /* ic_record_ripple@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 898885BD8F54A1934A3563BE7BC871FA /* ic_record_ripple@3x.png */; };
+		5BF237CC39E5C757A8569CCE02C64A16 /* XVIEWAvdioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB8DA048148A5609F8716A59D84F6B /* XVIEWAvdioManager-dummy.m */; };
+		5FC716C0EA85A117E7B7D8108607C481 /* BBVoiceRecordHeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B802946146E82BF008B6AC3FF980A59 /* BBVoiceRecordHeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6187CB195879DFCD2DAFE6A6EE10E8A3 /* BBHoldToSpeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DD10BE197A856223701DC3A03B012 /* BBHoldToSpeakButton.m */; };
+		62B3A00D8944BC0A40A68A8BDE4BEA01 /* ic_release_to_cancel@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 21D257BA05F3704B93ADE4D7D9C63C59 /* ic_release_to_cancel@2x.png */; };
+		6A46DA8E51EB9B7C9EB04CD602C2304F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6C844D106DD24B5EC052818BAD7F8B1E /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */; };
+		6F9F54D82F3A2784A0071CF78794845B /* AudioRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A3976FD4C5DD14AEB1EC8DE205437F /* AudioRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73BEA8927099018C16699D178E32E4A7 /* ic_record_too_short@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DBFBC14856A45F9C9A4592E793A3E /* ic_record_too_short@2x.png */; };
+		7E1C1B668D48AE9E36B25B7A864CC1F4 /* ic_record@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 51DFC35E2139BBA63301C353EA6ABC1E /* ic_record@3x.png */; };
+		8D7926C818BFF167904E1028B0466F54 /* BBVoiceRecordPowerAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5540CB0500559ACD2B361E4E8858607D /* BBVoiceRecordPowerAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EE3CED5ABE652B69AFDDF14FC91D4FB /* BBVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA5AFE51384F5D5C5D28F2EA1536A4 /* BBVoiceRecordToastContentView.m */; };
+		96B8C90C69B31E98F820A205013D1837 /* ic_record@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 1B22BF9961BABFE94D1B6DBB33DF4D3E /* ic_record@2x.png */; };
+		97A4BCCB4069D2E6486EF6F9FFF86A38 /* BBVoiceRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FF4207DCD69D605C922DE350975E6 /* BBVoiceRecordController.m */; };
+		9D5AF4CE52227AA71608AFDE681B9E68 /* BBHoldToSpeakButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D2397EB19911A7C74AE118EA7D14B935 /* BBHoldToSpeakButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC21B1F38C0026592B5A20C0E8A5CE4B /* BBVoiceRecordToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7C69C16F28A0D9A76E86008007CB2F /* BBVoiceRecordToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0CC31BE08EA4FB7AE31C2D8E39F5E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BD882F6A950294C23843B170905BD6CB /* UIColor+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FC2097E9D47840994DABBB3C7A05F27 /* UIColor+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE0D32D7BCB5E8E16B781843F6FCB4B4 /* UIImage+BBVoiceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C61594E9AF4FC1F5DD282FC3274717E /* UIImage+BBVoiceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF297A7BB599280E56F92F0296A405F2 /* libAvdioManager.a in Sources */ = {isa = PBXBuildFile; fileRef = 6367C7C21E0EFE5102C70F4D2C9D02DE /* libAvdioManager.a */; };
+		C252EF5D826421492992054592EC0A88 /* AudioProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1662AC83743BA56D6F669BEF19B6D /* AudioProcessManager.m */; };
+		C3A465A1EE870532A350B8C13242B400 /* UIImage+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C66188A112BAF91D5FF388B59B7F9132 /* UIImage+BBVoiceRecord.m */; };
+		C91DFDA64C9A6A06CBEA031CE2D1F7C4 /* Pods-XVIEWAvdioManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */; };
+		D18D83E446DAD4A4C5737A805150C9A7 /* AudioProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FA445C1D816B7129D56A29C1EF9B36 /* AudioProcessManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D250C87EDC7A4C86BCE5DEA7C62E8C24 /* AudioRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE331886E727B35F5C04F2158A43A4C5 /* AudioRecordView.m */; };
+		D3872CFF9C48F8FB294DA3B4F464624E /* ic_release_to_cancel@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFC8152FCEEE2C0E273ECB9846F9C6 /* ic_release_to_cancel@3x.png */; };
+		E15693446BA001CB6A0A714184B606DE /* BBVoiceRecordController.h in Headers */ = {isa = PBXBuildFile; fileRef = 766AB264CEE32E38D6DE3CBC07055637 /* BBVoiceRecordController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F493CD48A8A0E950CE2557AF22E38614 /* BBVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E14C9DFD094602F9E42568AB666B9AD /* BBVoiceRecordView.m */; };
+		FC4A3429E91D3285562A314D41A3B76C /* AudioPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 803C748607C78ACEC4206D91EB9B986F /* AudioPlayerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE4112F1D0783391F7DB03FD41EA4ECA /* Pods-XVIEWAvdioManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7CC05DC548A192F3447BE8507D40046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64FCFCDC9C82EBA02F7D0FA0B56B2A25;
+			remoteInfo = XVIEWAvdioManager;
+		};
+		D44E1F5652426191735951F92D1C0111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C2CD8D41447AB4A339700DA3266CE3;
+			remoteInfo = "Pods-XVIEWAvdioManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050A8FEDF8E701A00A079099C88022D9 /* XVIEWAvdioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-prefix.pch"; sourceTree = "<group>"; };
+		09EC619DECCC777F55686170421DCC65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D2CECE854A70131A96EFF1E3AAF9885 /* Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		135D0E4B7E33676152DEDE2995509F10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B22BF9961BABFE94D1B6DBB33DF4D3E /* ic_record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@2x.png"; sourceTree = "<group>"; };
+		1C9DD10BE197A856223701DC3A03B012 /* BBHoldToSpeakButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBHoldToSpeakButton.m; sourceTree = "<group>"; };
+		1E14C9DFD094602F9E42568AB666B9AD /* BBVoiceRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordView.m; sourceTree = "<group>"; };
+		1F1D0A4A8F8B087E26D9D02536DF202D /* UIColor+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BBVoiceRecord.m"; sourceTree = "<group>"; };
+		1FC2097E9D47840994DABBB3C7A05F27 /* UIColor+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BBVoiceRecord.h"; sourceTree = "<group>"; };
+		20DF77E3094FE7834E734888A0941F14 /* Pods-XVIEWAvdioManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		21D257BA05F3704B93ADE4D7D9C63C59 /* ic_release_to_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@2x.png"; sourceTree = "<group>"; };
+		229BA99294E2040A3D6C0D10478C26A3 /* XVIEWAvdioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWAvdioManager-umbrella.h"; sourceTree = "<group>"; };
+		2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Example-dummy.m"; sourceTree = "<group>"; };
+		25B7D1CC22053CB6C0BA58DB59813516 /* XVIEWAvdioManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWAvdioManager.xcconfig; sourceTree = "<group>"; };
+		2C61594E9AF4FC1F5DD282FC3274717E /* UIImage+BBVoiceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BBVoiceRecord.h"; sourceTree = "<group>"; };
+		36AB8DA048148A5609F8716A59D84F6B /* XVIEWAvdioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWAvdioManager-dummy.m"; sourceTree = "<group>"; };
+		38FA445C1D816B7129D56A29C1EF9B36 /* AudioProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioProcessManager.h; sourceTree = "<group>"; };
+		3B802946146E82BF008B6AC3FF980A59 /* BBVoiceRecordHeaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordHeaderDefine.h; sourceTree = "<group>"; };
+		3C3629FF68711F85E2D91314C2F20FF9 /* Pods_XVIEWAvdioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Example.framework; path = "Pods-XVIEWAvdioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		404C3657D5020C1F3FC3DA56E84F0438 /* BBVoiceRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordView.h; sourceTree = "<group>"; };
+		40CB82D327C8158E1E323968D7D022CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDCE99A5A39DFB80281EBAC30F8EAD /* BBVoiceRecordPowerAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordPowerAnimationView.m; sourceTree = "<group>"; };
+		51DFC35E2139BBA63301C353EA6ABC1E /* ic_record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record@3x.png"; sourceTree = "<group>"; };
+		52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		5540CB0500559ACD2B361E4E8858607D /* BBVoiceRecordPowerAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordPowerAnimationView.h; sourceTree = "<group>"; };
+		55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57639455CA42AE69ACC8FD0646D7BF27 /* Pods-XVIEWAvdioManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D85B0E858AB29F52DDA56738469AA03 /* XVIEWAvdioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWAvdioManager.framework; path = XVIEWAvdioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA757C2656D7AD478DDB3C8989D805E /* XVIEWAvdioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWAvdioManager.modulemap; sourceTree = "<group>"; };
+		6367C7C21E0EFE5102C70F4D2C9D02DE /* libAvdioManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAvdioManager.a; sourceTree = "<group>"; };
+		6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWAvdioManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		69C3663BF310F9C82A3EA4C72F08B300 /* Pods-XVIEWAvdioManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		69E53BF39C21359E789124564655DB28 /* Pods-XVIEWAvdioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B3332F34EA814AAC7B655F3B1C2908A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBFC8152FCEEE2C0E273ECB9846F9C6 /* ic_release_to_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_release_to_cancel@3x.png"; sourceTree = "<group>"; };
+		6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F7C69C16F28A0D9A76E86008007CB2F /* BBVoiceRecordToastContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordToastContentView.h; sourceTree = "<group>"; };
+		705AE0D98AE425F8A334430AB7EC24B5 /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWAvdioManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		766AB264CEE32E38D6DE3CBC07055637 /* BBVoiceRecordController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBVoiceRecordController.h; sourceTree = "<group>"; };
+		782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWAvdioManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		78EE47D93A9504A67CA539B054BBD6FC /* Pods-XVIEWAvdioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWAvdioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ED5CD4F9365E5AA2B3417036DA93E74 /* Pods_XVIEWAvdioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWAvdioManager_Tests.framework; path = "Pods-XVIEWAvdioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FDA5AFE51384F5D5C5D28F2EA1536A4 /* BBVoiceRecordToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordToastContentView.m; sourceTree = "<group>"; };
+		803C748607C78ACEC4206D91EB9B986F /* AudioPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioPlayerManager.h; sourceTree = "<group>"; };
+		84D6DC693BE4F54E9ABC70D2FE7DA35F /* AudioPlayerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerManager.m; sourceTree = "<group>"; };
+		898885BD8F54A1934A3563BE7BC871FA /* ic_record_ripple@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@3x.png"; sourceTree = "<group>"; };
+		8D8DBFBC14856A45F9C9A4592E793A3E /* ic_record_too_short@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988497842814F68F884C0FF99AE891E1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWAvdioManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9C6BC9131B2006DD3C0533BD3CDCFE09 /* ic_record_too_short@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_too_short@3x.png"; sourceTree = "<group>"; };
+		A4D79F5A8E169573C772584C01D410FC /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWAvdioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB4208330845FD9CBCF93CD54C8FAD5A /* Pods-XVIEWAvdioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Example.modulemap"; sourceTree = "<group>"; };
+		C66188A112BAF91D5FF388B59B7F9132 /* UIImage+BBVoiceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BBVoiceRecord.m"; sourceTree = "<group>"; };
+		D2397EB19911A7C74AE118EA7D14B935 /* BBHoldToSpeakButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBHoldToSpeakButton.h; sourceTree = "<group>"; };
+		D527036D85578804086323898291BC58 /* Pods-XVIEWAvdioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWAvdioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6C51CC6304EDB39E74C0AF25D78210B /* ic_record_ripple@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ic_record_ripple@2x.png"; sourceTree = "<group>"; };
+		D8A3976FD4C5DD14AEB1EC8DE205437F /* AudioRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioRecordView.h; sourceTree = "<group>"; };
+		D9F1662AC83743BA56D6F669BEF19B6D /* AudioProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioProcessManager.m; sourceTree = "<group>"; };
+		DE331886E727B35F5C04F2158A43A4C5 /* AudioRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AudioRecordView.m; sourceTree = "<group>"; };
+		E48FF4207DCD69D605C922DE350975E6 /* BBVoiceRecordController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordController.m; sourceTree = "<group>"; };
+		EAFF76EEC947D7D117241F3E022B7733 /* Pods-XVIEWAvdioManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EB2484BBC63E8FE63816D67F72C5CED1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB29EE926C6CCE2D8A87D6987D1D011A /* Pods-XVIEWAvdioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWAvdioManager_Tests.modulemap"; sourceTree = "<group>"; };
+		ED7EED4090D3C29099B071F53A6BAA6D /* Pods-XVIEWAvdioManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWAvdioManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238FA78C321FBE9B7FEDB0E35D23D9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A46DA8E51EB9B7C9EB04CD602C2304F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6355D4D2B5B5A53A7DD772E672FE3556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CC31BE08EA4FB7AE31C2D8E39F5E0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD1C9CA299BAAD449FBEC29276B0898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3100D41AA80CA373E265C0985EAE1DC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D906B266A2FE4FE4E8666D2C9A6B36 /* AudioProcess */ = {
+			isa = PBXGroup;
+			children = (
+				803C748607C78ACEC4206D91EB9B986F /* AudioPlayerManager.h */,
+				84D6DC693BE4F54E9ABC70D2FE7DA35F /* AudioPlayerManager.m */,
+				38FA445C1D816B7129D56A29C1EF9B36 /* AudioProcessManager.h */,
+				D9F1662AC83743BA56D6F669BEF19B6D /* AudioProcessManager.m */,
+				D8A3976FD4C5DD14AEB1EC8DE205437F /* AudioRecordView.h */,
+				DE331886E727B35F5C04F2158A43A4C5 /* AudioRecordView.m */,
+				BF66A50E8468ED625F9C7218B367A6E7 /* BBVoiceRecord */,
+			);
+			name = AudioProcess;
+			path = AudioProcess;
+			sourceTree = "<group>";
+		};
+		351FE88C06D05244492B9297F9E477EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF85175530BFABB3DE16EC58A29CE497 /* Pods-XVIEWAvdioManager_Example */,
+				E91AA24235DD62E2629FBA872055E7F6 /* Pods-XVIEWAvdioManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A00A8E440BD982165489AC413CACFF6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				135D0E4B7E33676152DEDE2995509F10 /* LICENSE */,
+				09EC619DECCC777F55686170421DCC65 /* README.md */,
+				A4D79F5A8E169573C772584C01D410FC /* XVIEWAvdioManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65DB9D935F13883EA645A3EF8C585741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C3629FF68711F85E2D91314C2F20FF9 /* Pods_XVIEWAvdioManager_Example.framework */,
+				7ED5CD4F9365E5AA2B3417036DA93E74 /* Pods_XVIEWAvdioManager_Tests.framework */,
+				5D85B0E858AB29F52DDA56738469AA03 /* XVIEWAvdioManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				65DB9D935F13883EA645A3EF8C585741 /* Products */,
+				351FE88C06D05244492B9297F9E477EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B00C84C96F89DDAB9B9E01E1FAB42953 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B22BF9961BABFE94D1B6DBB33DF4D3E /* ic_record@2x.png */,
+				51DFC35E2139BBA63301C353EA6ABC1E /* ic_record@3x.png */,
+				D6C51CC6304EDB39E74C0AF25D78210B /* ic_record_ripple@2x.png */,
+				898885BD8F54A1934A3563BE7BC871FA /* ic_record_ripple@3x.png */,
+				8D8DBFBC14856A45F9C9A4592E793A3E /* ic_record_too_short@2x.png */,
+				9C6BC9131B2006DD3C0533BD3CDCFE09 /* ic_record_too_short@3x.png */,
+				21D257BA05F3704B93ADE4D7D9C63C59 /* ic_release_to_cancel@2x.png */,
+				6DBFC8152FCEEE2C0E273ECB9846F9C6 /* ic_release_to_cancel@3x.png */,
+			);
+			name = resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		B0EE7005E89D211CCC320F4346FBE903 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3332F34EA814AAC7B655F3B1C2908A /* Info.plist */,
+				5FA757C2656D7AD478DDB3C8989D805E /* XVIEWAvdioManager.modulemap */,
+				25B7D1CC22053CB6C0BA58DB59813516 /* XVIEWAvdioManager.xcconfig */,
+				36AB8DA048148A5609F8716A59D84F6B /* XVIEWAvdioManager-dummy.m */,
+				050A8FEDF8E701A00A079099C88022D9 /* XVIEWAvdioManager-prefix.pch */,
+				229BA99294E2040A3D6C0D10478C26A3 /* XVIEWAvdioManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XVIEWAvdioManager";
+			sourceTree = "<group>";
+		};
+		B4BC598AC69EA7429C5BB1AF7B5832A3 /* XVIEWAvdioManager */ = {
+			isa = PBXGroup;
+			children = (
+				988497842814F68F884C0FF99AE891E1 /* ReplaceMe.m */,
+				D3F941B535E6694F7907FF5AD03832E2 /* AvdioManager */,
+				4A00A8E440BD982165489AC413CACFF6 /* Pod */,
+				B0EE7005E89D211CCC320F4346FBE903 /* Support Files */,
+			);
+			name = XVIEWAvdioManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF367499FB206CC8F28BC039EA39D7B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4BC598AC69EA7429C5BB1AF7B5832A3 /* XVIEWAvdioManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BF66A50E8468ED625F9C7218B367A6E7 /* BBVoiceRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D2397EB19911A7C74AE118EA7D14B935 /* BBHoldToSpeakButton.h */,
+				1C9DD10BE197A856223701DC3A03B012 /* BBHoldToSpeakButton.m */,
+				766AB264CEE32E38D6DE3CBC07055637 /* BBVoiceRecordController.h */,
+				E48FF4207DCD69D605C922DE350975E6 /* BBVoiceRecordController.m */,
+				3B802946146E82BF008B6AC3FF980A59 /* BBVoiceRecordHeaderDefine.h */,
+				5540CB0500559ACD2B361E4E8858607D /* BBVoiceRecordPowerAnimationView.h */,
+				4AEDCE99A5A39DFB80281EBAC30F8EAD /* BBVoiceRecordPowerAnimationView.m */,
+				6F7C69C16F28A0D9A76E86008007CB2F /* BBVoiceRecordToastContentView.h */,
+				7FDA5AFE51384F5D5C5D28F2EA1536A4 /* BBVoiceRecordToastContentView.m */,
+				404C3657D5020C1F3FC3DA56E84F0438 /* BBVoiceRecordView.h */,
+				1E14C9DFD094602F9E42568AB666B9AD /* BBVoiceRecordView.m */,
+				1FC2097E9D47840994DABBB3C7A05F27 /* UIColor+BBVoiceRecord.h */,
+				1F1D0A4A8F8B087E26D9D02536DF202D /* UIColor+BBVoiceRecord.m */,
+				2C61594E9AF4FC1F5DD282FC3274717E /* UIImage+BBVoiceRecord.h */,
+				C66188A112BAF91D5FF388B59B7F9132 /* UIImage+BBVoiceRecord.m */,
+				B00C84C96F89DDAB9B9E01E1FAB42953 /* resources */,
+			);
+			name = BBVoiceRecord;
+			path = BBVoiceRecord;
+			sourceTree = "<group>";
+		};
+		BF85175530BFABB3DE16EC58A29CE497 /* Pods-XVIEWAvdioManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40CB82D327C8158E1E323968D7D022CF /* Info.plist */,
+				BB4208330845FD9CBCF93CD54C8FAD5A /* Pods-XVIEWAvdioManager_Example.modulemap */,
+				D527036D85578804086323898291BC58 /* Pods-XVIEWAvdioManager_Example-acknowledgements.markdown */,
+				69E53BF39C21359E789124564655DB28 /* Pods-XVIEWAvdioManager_Example-acknowledgements.plist */,
+				2337A7A872A13956524679D9FC0F7394 /* Pods-XVIEWAvdioManager_Example-dummy.m */,
+				EAFF76EEC947D7D117241F3E022B7733 /* Pods-XVIEWAvdioManager_Example-frameworks.sh */,
+				57639455CA42AE69ACC8FD0646D7BF27 /* Pods-XVIEWAvdioManager_Example-resources.sh */,
+				52CA584AEAD039DEC50D1042779DD95D /* Pods-XVIEWAvdioManager_Example-umbrella.h */,
+				55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */,
+				6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */,
+			);
+			name = "Pods-XVIEWAvdioManager_Example";
+			path = "Target Support Files/Pods-XVIEWAvdioManager_Example";
+			sourceTree = "<group>";
+		};
+		D3F941B535E6694F7907FF5AD03832E2 /* AvdioManager */ = {
+			isa = PBXGroup;
+			children = (
+				6367C7C21E0EFE5102C70F4D2C9D02DE /* libAvdioManager.a */,
+				11D906B266A2FE4FE4E8666D2C9A6B36 /* AudioProcess */,
+			);
+			name = AvdioManager;
+			path = XVIEWAvdioManager/Classes/AvdioManager;
+			sourceTree = "<group>";
+		};
+		E91AA24235DD62E2629FBA872055E7F6 /* Pods-XVIEWAvdioManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2484BBC63E8FE63816D67F72C5CED1 /* Info.plist */,
+				EB29EE926C6CCE2D8A87D6987D1D011A /* Pods-XVIEWAvdioManager_Tests.modulemap */,
+				0D2CECE854A70131A96EFF1E3AAF9885 /* Pods-XVIEWAvdioManager_Tests-acknowledgements.markdown */,
+				78EE47D93A9504A67CA539B054BBD6FC /* Pods-XVIEWAvdioManager_Tests-acknowledgements.plist */,
+				6733D1510B66E85F43E488DE253EA75E /* Pods-XVIEWAvdioManager_Tests-dummy.m */,
+				ED7EED4090D3C29099B071F53A6BAA6D /* Pods-XVIEWAvdioManager_Tests-frameworks.sh */,
+				20DF77E3094FE7834E734888A0941F14 /* Pods-XVIEWAvdioManager_Tests-resources.sh */,
+				782EC572E1AB64914EF836097E3BBEAC /* Pods-XVIEWAvdioManager_Tests-umbrella.h */,
+				69C3663BF310F9C82A3EA4C72F08B300 /* Pods-XVIEWAvdioManager_Tests.debug.xcconfig */,
+				705AE0D98AE425F8A334430AB7EC24B5 /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-XVIEWAvdioManager_Tests";
+			path = "Target Support Files/Pods-XVIEWAvdioManager_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		043D139798513DDD0B15BF79B404F909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A3429E91D3285562A314D41A3B76C /* AudioPlayerManager.h in Headers */,
+				D18D83E446DAD4A4C5737A805150C9A7 /* AudioProcessManager.h in Headers */,
+				6F9F54D82F3A2784A0071CF78794845B /* AudioRecordView.h in Headers */,
+				9D5AF4CE52227AA71608AFDE681B9E68 /* BBHoldToSpeakButton.h in Headers */,
+				E15693446BA001CB6A0A714184B606DE /* BBVoiceRecordController.h in Headers */,
+				5FC716C0EA85A117E7B7D8108607C481 /* BBVoiceRecordHeaderDefine.h in Headers */,
+				8D7926C818BFF167904E1028B0466F54 /* BBVoiceRecordPowerAnimationView.h in Headers */,
+				AC21B1F38C0026592B5A20C0E8A5CE4B /* BBVoiceRecordToastContentView.h in Headers */,
+				3157472ECA5CCFC017E319E98B15E86F /* BBVoiceRecordView.h in Headers */,
+				BD882F6A950294C23843B170905BD6CB /* UIColor+BBVoiceRecord.h in Headers */,
+				BE0D32D7BCB5E8E16B781843F6FCB4B4 /* UIImage+BBVoiceRecord.h in Headers */,
+				1A4AC4D5E2AF4C618F6307FB3149460D /* XVIEWAvdioManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E46BCCF9BA7CE57BAFD213D5CB1ED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4112F1D0783391F7DB03FD41EA4ECA /* Pods-XVIEWAvdioManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FED78E9503C4F4AA868F49DF9216780 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246B3D4C2BC116E082391E1B08743FB7 /* Pods-XVIEWAvdioManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09C2CD8D41447AB4A339700DA3266CE3 /* Pods-XVIEWAvdioManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B979AE046952A226A3EDACA1BAB7C51A /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */;
+			buildPhases = (
+				567C3499830F9420C6EAD884F5DD89EC /* Sources */,
+				238FA78C321FBE9B7FEDB0E35D23D9A6 /* Frameworks */,
+				3FED78E9503C4F4AA868F49DF9216780 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66911893C802A4DF61605A41AAE602DF /* PBXTargetDependency */,
+			);
+			name = "Pods-XVIEWAvdioManager_Example";
+			productName = "Pods-XVIEWAvdioManager_Example";
+			productReference = 3C3629FF68711F85E2D91314C2F20FF9 /* Pods_XVIEWAvdioManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C48D09045AE051F1B6C0A716EC8263A /* Pods-XVIEWAvdioManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E35E5E912C7AD09360855BB0844FBC /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Tests" */;
+			buildPhases = (
+				912D9B027EC931A95611E18EAB901B6C /* Sources */,
+				6BD1C9CA299BAAD449FBEC29276B0898 /* Frameworks */,
+				28E46BCCF9BA7CE57BAFD213D5CB1ED5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CFDCBFD44D1633719AE492A6CCA4F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-XVIEWAvdioManager_Tests";
+			productName = "Pods-XVIEWAvdioManager_Tests";
+			productReference = 7ED5CD4F9365E5AA2B3417036DA93E74 /* Pods_XVIEWAvdioManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64FCFCDC9C82EBA02F7D0FA0B56B2A25 /* XVIEWAvdioManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF540BD208CC9E0BD8B8EFE2A3033E3 /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */;
+			buildPhases = (
+				82AD1741063A5949B38075CD17ED319E /* Sources */,
+				6355D4D2B5B5A53A7DD772E672FE3556 /* Frameworks */,
+				043D139798513DDD0B15BF79B404F909 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XVIEWAvdioManager;
+			productName = XVIEWAvdioManager;
+			productReference = 5D85B0E858AB29F52DDA56738469AA03 /* XVIEWAvdioManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 65DB9D935F13883EA645A3EF8C585741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C2CD8D41447AB4A339700DA3266CE3 /* Pods-XVIEWAvdioManager_Example */,
+				2C48D09045AE051F1B6C0A716EC8263A /* Pods-XVIEWAvdioManager_Tests */,
+				64FCFCDC9C82EBA02F7D0FA0B56B2A25 /* XVIEWAvdioManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567C3499830F9420C6EAD884F5DD89EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C844D106DD24B5EC052818BAD7F8B1E /* Pods-XVIEWAvdioManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AD1741063A5949B38075CD17ED319E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33112813DA194CCB928F073FF272105D /* AudioPlayerManager.m in Sources */,
+				C252EF5D826421492992054592EC0A88 /* AudioProcessManager.m in Sources */,
+				D250C87EDC7A4C86BCE5DEA7C62E8C24 /* AudioRecordView.m in Sources */,
+				6187CB195879DFCD2DAFE6A6EE10E8A3 /* BBHoldToSpeakButton.m in Sources */,
+				97A4BCCB4069D2E6486EF6F9FFF86A38 /* BBVoiceRecordController.m in Sources */,
+				19FA2DEF122FC51FF1EE8509AF46D52A /* BBVoiceRecordPowerAnimationView.m in Sources */,
+				8EE3CED5ABE652B69AFDDF14FC91D4FB /* BBVoiceRecordToastContentView.m in Sources */,
+				F493CD48A8A0E950CE2557AF22E38614 /* BBVoiceRecordView.m in Sources */,
+				96B8C90C69B31E98F820A205013D1837 /* ic_record@2x.png in Sources */,
+				7E1C1B668D48AE9E36B25B7A864CC1F4 /* ic_record@3x.png in Sources */,
+				1FE1EA81D0AF4CAC2746B2BAE57B3BF7 /* ic_record_ripple@2x.png in Sources */,
+				49E7C10065CED84D4145AC3937EC537E /* ic_record_ripple@3x.png in Sources */,
+				73BEA8927099018C16699D178E32E4A7 /* ic_record_too_short@2x.png in Sources */,
+				3D44558480C8785F5C023688F1EDAAF1 /* ic_record_too_short@3x.png in Sources */,
+				62B3A00D8944BC0A40A68A8BDE4BEA01 /* ic_release_to_cancel@2x.png in Sources */,
+				D3872CFF9C48F8FB294DA3B4F464624E /* ic_release_to_cancel@3x.png in Sources */,
+				BF297A7BB599280E56F92F0296A405F2 /* libAvdioManager.a in Sources */,
+				43CCD4257423081CB5C08F5BA59B0931 /* ReplaceMe.m in Sources */,
+				252D58115E968E321BC5524A41F55EBD /* UIColor+BBVoiceRecord.m in Sources */,
+				C3A465A1EE870532A350B8C13242B400 /* UIImage+BBVoiceRecord.m in Sources */,
+				5BF237CC39E5C757A8569CCE02C64A16 /* XVIEWAvdioManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912D9B027EC931A95611E18EAB901B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91DFDA64C9A6A06CBEA031CE2D1F7C4 /* Pods-XVIEWAvdioManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66911893C802A4DF61605A41AAE602DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XVIEWAvdioManager;
+			target = 64FCFCDC9C82EBA02F7D0FA0B56B2A25 /* XVIEWAvdioManager */;
+			targetProxy = C7CC05DC548A192F3447BE8507D40046 /* PBXContainerItemProxy */;
+		};
+		F5CFDCBFD44D1633719AE492A6CCA4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XVIEWAvdioManager_Example";
+			target = 09C2CD8D41447AB4A339700DA3266CE3 /* Pods-XVIEWAvdioManager_Example */;
+			targetProxy = D44E1F5652426191735951F92D1C0111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036FA717DB9B5AAA56C25CAA57463C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705AE0D98AE425F8A334430AB7EC24B5 /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Tests/Pods-XVIEWAvdioManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E070FDC4CE3977F262CF4F4944C53A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED34FC36D877A9E9813E94811537879 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D0E3E83A153CDB590F7AA931688C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B7D1CC22053CB6C0BA58DB59813516 /* XVIEWAvdioManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XVIEWAvdioManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager.modulemap";
+				PRODUCT_MODULE_NAME = XVIEWAvdioManager;
+				PRODUCT_NAME = XVIEWAvdioManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FDF1FA31A7EFE79148710D15B3069B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55742B4F88456E7C18D165389B054905 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6079DC4980F45629025DD8BC8D1D9680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C3663BF310F9C82A3EA4C72F08B300 /* Pods-XVIEWAvdioManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWAvdioManager_Tests/Pods-XVIEWAvdioManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F54F7B747AFEFB5A1CFE09E0A7DAE8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B7D1CC22053CB6C0BA58DB59813516 /* XVIEWAvdioManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XVIEWAvdioManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XVIEWAvdioManager/XVIEWAvdioManager.modulemap";
+				PRODUCT_MODULE_NAME = XVIEWAvdioManager;
+				PRODUCT_NAME = XVIEWAvdioManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E35E5E912C7AD09360855BB0844FBC /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6079DC4980F45629025DD8BC8D1D9680 /* Debug */,
+				036FA717DB9B5AAA56C25CAA57463C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF540BD208CC9E0BD8B8EFE2A3033E3 /* Build configuration list for PBXNativeTarget "XVIEWAvdioManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54F7B747AFEFB5A1CFE09E0A7DAE8F7 /* Debug */,
+				56D0E3E83A153CDB590F7AA931688C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B979AE046952A226A3EDACA1BAB7C51A /* Build configuration list for PBXNativeTarget "Pods-XVIEWAvdioManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDF1FA31A7EFE79148710D15B3069B8 /* Debug */,
+				2E070FDC4CE3977F262CF4F4944C53A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

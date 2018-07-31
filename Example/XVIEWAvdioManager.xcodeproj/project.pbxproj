@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		44A45F1C0D925FF199A5421C /* Pods_XVIEWAvdioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWAvdioManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54ADC24D800DE29ECD6BC5E2 /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWAvdioManager.podspec; path = ../XVIEWAvdioManager.podspec; sourceTree = "<group>"; };
-		5CCA286F46E7CCAAF31FE2E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		54ADC24D800DE29ECD6BC5E2 /* XVIEWAvdioManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWAvdioManager.podspec; path = ../XVIEWAvdioManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5CCA286F46E7CCAAF31FE2E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XVIEWAvdioManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XVIEWAvdioManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		6C316AAB922889FB53094BE2 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWAvdioManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B75CC9929DCC602F903E741A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B75CC9929DCC602F903E741A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BE28A1CF3A332FB48B25705E /* Pods-XVIEWAvdioManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWAvdioManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWAvdioManager_Tests/Pods-XVIEWAvdioManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C007F0C81BFA3108C8F0EF11 /* Pods_XVIEWAvdioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWAvdioManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2442DFA1E622A2A034EA595 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWAvdioManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maomao520benben;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6BQNDUD6FA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 6C316AAB922889FB53094BE2 /* Pods-XVIEWAvdioManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BQNDUD6FA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAvdioManager/XVIEWAvdioManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWAvdioManager/XVIEWAvdioManager-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = C2442DFA1E622A2A034EA595 /* Pods-XVIEWAvdioManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BQNDUD6FA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAvdioManager/XVIEWAvdioManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWAvdioManager/XVIEWAvdioManager-Info.plist";

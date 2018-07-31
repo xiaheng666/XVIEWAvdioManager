@@ -1,0 +1,6 @@
+framework module Pods_XVIEWAvdioManager_Example {
+  umbrella header "Pods-XVIEWAvdioManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

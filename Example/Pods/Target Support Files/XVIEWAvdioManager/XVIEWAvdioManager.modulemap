@@ -1,0 +1,6 @@
+framework module XVIEWAvdioManager {
+  umbrella header "XVIEWAvdioManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
