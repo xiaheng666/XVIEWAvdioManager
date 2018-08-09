@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAvdioManager",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "音视频相关，包含录音，上传视频",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAvdioManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAvdioManager.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,9 +21,13 @@
   "source_files": [
     "XVIEWAvdioManager/Classes/**/*",
     "XVIEWAvdioManager/Classes/**/**/*",
-    "XVIEWAvdioManager/Classes/**/**/**/*",
-    "XVIEWAvdioManager/Classes/**/**/**/**/*"
+    "XVIEWAvdioManager/Classes/**/**/**/*"
   ],
+  "resource_bundles": {
+    "XVIEWAvdioManager": [
+      "XVIEWAvdioManager/Assets/*.png"
+    ]
+  },
   "dependencies": {
     "StreamingKit": [
       "=0.1.29"
