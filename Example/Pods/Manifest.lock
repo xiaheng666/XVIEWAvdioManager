@@ -2,7 +2,7 @@ PODS:
   - LameTool (0.0.2)
   - Masonry (1.1.0)
   - StreamingKit (0.1.29)
-  - XVIEWAvdioManager (0.1.6):
+  - XVIEWAvdioManager (0.1.7):
     - LameTool (~> 0.0.2)
     - Masonry
     - StreamingKit (= 0.1.29)
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   LameTool: e987858ac6065162221c0c444d364d401a86b8c1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
-  XVIEWAvdioManager: 15f61ced6b019b379316302910a78d822c19eb1c
+  XVIEWAvdioManager: d023245f22c46568469d1294ddb30bb029f0d74e
 
 PODFILE CHECKSUM: 03257b370150a6c196541712596d9898cadc6152
 
