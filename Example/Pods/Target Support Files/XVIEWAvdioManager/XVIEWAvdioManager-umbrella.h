@@ -21,6 +21,8 @@
 #import "BBVoiceRecordView.h"
 #import "UIColor+BBVoiceRecord.h"
 #import "UIImage+BBVoiceRecord.h"
+#import "AvdioManager.h"
+#import "XVIEWSDKObject.h"
 
 FOUNDATION_EXPORT double XVIEWAvdioManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVIEWAvdioManagerVersionString[];
