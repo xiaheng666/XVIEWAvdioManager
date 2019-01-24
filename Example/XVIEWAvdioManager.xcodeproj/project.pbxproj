@@ -248,7 +248,7 @@
 				ORGANIZATIONNAME = maomao520benben;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 6BQNDUD6FA;
+						DevelopmentTeam = 24N474AU9T;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -322,16 +322,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LameTool/LameTool.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LameTool.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWAvdioManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				DEVELOPMENT_TEAM = 6BQNDUD6FA;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAvdioManager/XVIEWAvdioManager-Prefix.pch";
@@ -516,7 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				DEVELOPMENT_TEAM = 6BQNDUD6FA;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAvdioManager/XVIEWAvdioManager-Prefix.pch";

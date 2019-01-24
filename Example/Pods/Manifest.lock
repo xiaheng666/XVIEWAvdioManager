@@ -1,30 +1,22 @@
 PODS:
-  - LameTool (0.0.2)
   - Masonry (1.1.0)
-  - StreamingKit (0.1.29)
-  - XVIEWAvdioManager (0.1.8):
-    - LameTool (~> 0.0.2)
+  - XVIEWAvdioManager (0.2.0):
     - Masonry
-    - StreamingKit (= 0.1.29)
 
 DEPENDENCIES:
   - XVIEWAvdioManager (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - LameTool
     - Masonry
-    - StreamingKit
 
 EXTERNAL SOURCES:
   XVIEWAvdioManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LameTool: e987858ac6065162221c0c444d364d401a86b8c1
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
-  XVIEWAvdioManager: a7e0670d7b5933d3169f8198837036672554ab9e
+  XVIEWAvdioManager: 63b48070df1931df1ddd079521546fb144e75bc5
 
 PODFILE CHECKSUM: 03257b370150a6c196541712596d9898cadc6152
 

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAvdioManager'
-  s.version          = '0.1.9'
-  s.summary          = '音视频相关，包含录音，上传视频'
+  s.version          = '0.2.0'
+  s.summary          = '音频'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,16 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWAvdioManager/Classes/**/*','XVIEWAvdioManager/Classes/**/**/*','XVIEWAvdioManager/Classes/**/**/**/*','XVIEWAvdioManager/Classes/**/**/**/**/*'
+  s.source_files = 'XVIEWAvdioManager/Classes/BBVoiceRecord/*.{h,m}','XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.h'
   
-  #   s.resource_bundles = {
-  # 'XVIEWAvdioManager' => ['XVIEWAvdioManager/Assets/*@2x.png','XVIEWAvdioManager/Assets/*@3x.png']
-  #}
+  s.resource_bundles = {
+   'XVIEWAvdioManager' => ['XVIEWAvdioManager/Assets/resources/*.png']
+  }
 
+  s.ios.vendored_libraries = 'XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.a'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-s.dependency 'StreamingKit', '=0.1.29'# 音视频
-s.dependency 'LameTool', '~> 0.0.2'    # 音视频
-s.dependency 'Masonry'   # 音视频
+   s.dependency 'Masonry'
+
 end

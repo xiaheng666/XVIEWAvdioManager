@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "AudioPlayerManager.h"
-#import "AudioProcessManager.h"
-#import "AudioRecordView.h"
 #import "BBHoldToSpeakButton.h"
 #import "BBVoiceRecordController.h"
 #import "BBVoiceRecordHeaderDefine.h"
@@ -21,8 +18,9 @@
 #import "BBVoiceRecordView.h"
 #import "UIColor+BBVoiceRecord.h"
 #import "UIImage+BBVoiceRecord.h"
-#import "AvdioManager.h"
-#import "XVIEWSDKObject.h"
+#import "AudioProcessManager.h"
+#import "AudioRecordView.h"
+#import "XVIEWAvdioManager.h"
 
 FOUNDATION_EXPORT double XVIEWAvdioManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVIEWAvdioManagerVersionString[];
