@@ -1,7 +1,7 @@
 PODS:
   - Masonry (1.1.0)
-  - XVIEWAvdioManager (0.2.0):
-    - Masonry
+  - XVIEWAvdioManager (0.2.1):
+    - Masonry (= 1.1.0)
 
 DEPENDENCIES:
   - XVIEWAvdioManager (from `../`)
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  XVIEWAvdioManager: 63b48070df1931df1ddd079521546fb144e75bc5
+  XVIEWAvdioManager: 5d289a0ecc0adf5b9f13ffd75e835e47b773a348
 
 PODFILE CHECKSUM: 03257b370150a6c196541712596d9898cadc6152
 

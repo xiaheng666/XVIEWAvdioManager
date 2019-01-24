@@ -1,0 +1,1 @@
+../../../../../XVIEWAvdioManager/Classes/XVIEWAvdioManager/AudioRecordView.h

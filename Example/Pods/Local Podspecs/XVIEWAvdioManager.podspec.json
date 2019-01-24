@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAvdioManager",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "音频",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAvdioManager",
@@ -13,15 +13,12 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAvdioManager.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "XVIEWAvdioManager/Classes/BBVoiceRecord/*.{h,m}",
-    "XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.h"
-  ],
+  "source_files": "XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.h",
   "resource_bundles": {
     "XVIEWAvdioManager": [
       "XVIEWAvdioManager/Assets/resources/*.png"
@@ -32,7 +29,7 @@
   },
   "dependencies": {
     "Masonry": [
-
+      "1.1.0"
     ]
   }
 }

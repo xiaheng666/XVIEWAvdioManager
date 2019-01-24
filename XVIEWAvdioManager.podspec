@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAvdioManager'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '音频'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWAvdioManager/Classes/BBVoiceRecord/*.{h,m}','XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.h'
+  s.source_files = 'XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.h'
   
   s.resource_bundles = {
    'XVIEWAvdioManager' => ['XVIEWAvdioManager/Assets/resources/*.png']
@@ -39,6 +39,6 @@ TODO: Add long description of the pod here.
   s.ios.vendored_libraries = 'XVIEWAvdioManager/Classes/XVIEWAvdioManager/*.a'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Masonry'
+   s.dependency 'Masonry','1.1.0'
 
 end

@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				9DC6DB3E267B5947055CFAFC /* [CP] Embed Pods Frameworks */,
+				254F639EB71007EA0C655CBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +298,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		254F639EB71007EA0C655CBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XVIEWAvdioManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7644514956958BFA94B0D67F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,12 +342,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAvdioManager_Example/Pods-XVIEWAvdioManager_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/XVIEWAvdioManager/XVIEWAvdioManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWAvdioManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
