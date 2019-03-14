@@ -14,6 +14,7 @@
 //录音、播放本地音频
 @interface AudioProcessManager : NSObject
 
+@property (nonatomic, strong) UIView              *recordView;
 @property (nonatomic, copy)   NSString            *uploadUrl; //上传音频文件网址
 @property (nonatomic, strong) AVAudioRecorder *audioRecorder; //音频录音机
 @property (nonatomic, strong) NSDictionary        *uploadPara;  //上传音频文件时所带参数

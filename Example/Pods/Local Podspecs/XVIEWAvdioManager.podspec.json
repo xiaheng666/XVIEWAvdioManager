@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAvdioManager",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "音频",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAvdioManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAvdioManager.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
